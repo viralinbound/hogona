@@ -1,0 +1,120 @@
+/** Kannada. Keys are the English UI text. */
+export const kn: Record<string, string> = {
+  // Tabs and screen titles
+  Plan: 'ಪ್ರಯಾಣ',
+  Map: 'ನಕ್ಷೆ',
+  Saved: 'ಉಳಿಸಿದವು',
+  Activity: 'ಚಟುವಟಿಕೆ',
+  Settings: 'ಸೆಟ್ಟಿಂಗ್ಸ್',
+  'Choose a place': 'ಸ್ಥಳ ಆಯ್ಕೆಮಾಡಿ',
+  Journeys: 'ಮಾರ್ಗಗಳು',
+  'Your journey': 'ನಿಮ್ಮ ಪ್ರಯಾಣ',
+  'Book journey': 'ಪ್ರಯಾಣ ಬುಕ್ ಮಾಡಿ',
+  'Bus routes': 'ಬಸ್ ಮಾರ್ಗಗಳು',
+  'Privacy & about': 'ಗೌಪ್ಯತೆ ಮತ್ತು ಮಾಹಿತಿ',
+  'Metro lines & timings': 'ಮೆಟ್ರೋ ಮಾರ್ಗಗಳು ಮತ್ತು ಸಮಯ',
+  Airport: 'ವಿಮಾನ ನಿಲ್ದಾಣ',
+  'Monthly cost': 'ತಿಂಗಳ ಖರ್ಚು',
+
+  // Home
+  'Use my location': 'ನನ್ನ ಸ್ಥಳ',
+  'Finding you…': 'ನಿಮ್ಮ ಸ್ಥಳ ಹುಡುಕುತ್ತಿದೆ…',
+  'Where do you want to go today?': 'ಇಂದು ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕು?',
+  'Saved places': 'ಉಳಿಸಿದ ಸ್ಥಳಗಳು',
+  Edit: 'ಬದಲಿಸಿ',
+  'Recent trips': 'ಇತ್ತೀಚಿನ ಪ್ರಯಾಣಗಳು',
+  'Metro near you': 'ನಿಮ್ಮ ಹತ್ತಿರದ ಮೆಟ್ರೋ',
+  More: 'ಇನ್ನಷ್ಟು',
+  'Metro map': 'ಮೆಟ್ರೋ ನಕ್ಷೆ',
+  'All stations and lines': 'ಎಲ್ಲಾ ನಿಲ್ದಾಣಗಳು ಮತ್ತು ಮಾರ್ಗಗಳು',
+  'Metro timings': 'ಮೆಟ್ರೋ ಸಮಯ',
+  'First and last trains, frequency, stations': 'ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ರೈಲು, ಎಷ್ಟು ಹೊತ್ತಿಗೊಮ್ಮೆ, ನಿಲ್ದಾಣಗಳು',
+  'Bus route map': 'ಬಸ್ ಮಾರ್ಗ ನಕ್ಷೆ',
+  'Find a bus number and see all its stops': 'ಬಸ್ ಸಂಖ್ಯೆ ಹುಡುಕಿ, ಅದರ ಎಲ್ಲಾ ನಿಲ್ದಾಣಗಳನ್ನು ನೋಡಿ',
+  'Buy a metro ticket on WhatsApp': 'WhatsApp ನಲ್ಲಿ ಮೆಟ್ರೋ ಟಿಕೆಟ್ ಖರೀದಿಸಿ',
+  'Official Namma Metro chat': 'ನಮ್ಮ ಮೆಟ್ರೋ ಅಧಿಕೃತ ಚಾಟ್',
+  'Plans this trip again': 'ಈ ಪ್ರಯಾಣವನ್ನು ಮತ್ತೆ ಯೋಜಿಸುತ್ತದೆ',
+  'Starts from this station': 'ಈ ನಿಲ್ದಾಣದಿಂದ ಆರಂಭ',
+
+  // Commute
+  'Your commute': 'ದಿನನಿತ್ಯದ ಪ್ರಯಾಣ',
+  Home: 'ಮನೆ',
+  Work: 'ಕಚೇರಿ',
+  'Set home': 'ಮನೆ ಆಯ್ಕೆಮಾಡಿ',
+  'Set work': 'ಕಚೇರಿ ಆಯ್ಕೆಮಾಡಿ',
+  'Go home': 'ಮನೆಗೆ ಹೋಗಿ',
+  'Go to work': 'ಕಚೇರಿಗೆ ಹೋಗಿ',
+  Change: 'ಬದಲಿಸಿ',
+  Remove: 'ತೆಗೆದುಹಾಕಿ',
+  'Not set': 'ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ',
+  'Set your home and work once, then plan the daily trip in one tap.': 'ಮನೆ ಮತ್ತು ಕಚೇರಿಯನ್ನು ಒಮ್ಮೆ ಆಯ್ಕೆಮಾಡಿ, ನಂತರ ದಿನದ ಪ್ರಯಾಣ ಒಂದೇ ಟ್ಯಾಪ್‌ನಲ್ಲಿ.',
+  'Nearest metro: {station}': 'ಹತ್ತಿರದ ಮೆಟ್ರೋ: {station}',
+  'Trains about every {n} min': 'ಸುಮಾರು ಪ್ರತಿ {n} ನಿಮಿಷಕ್ಕೆ ರೈಲು',
+  'Last train about {time}': 'ಕೊನೆಯ ರೈಲು ಸುಮಾರು {time}',
+  'Timings for this line are not verified yet': 'ಈ ಮಾರ್ಗದ ಸಮಯ ಇನ್ನೂ ಖಚಿತವಾಗಿಲ್ಲ',
+  'Choose your home': 'ನಿಮ್ಮ ಮನೆ ಆಯ್ಕೆಮಾಡಿ',
+  'Choose your work place': 'ನಿಮ್ಮ ಕಚೇರಿ ಆಯ್ಕೆಮಾಡಿ',
+
+  // Airport + cost
+  'Airport buses': 'ವಿಮಾನ ನಿಲ್ದಾಣ ಬಸ್‌ಗಳು',
+  'Vayu Vajra (KIA) routes and how to reach the airport': 'ವಾಯು ವಜ್ರ (KIA) ಮಾರ್ಗಗಳು ಮತ್ತು ವಿಮಾನ ನಿಲ್ದಾಣ ತಲುಪುವ ದಾರಿ',
+  'Plan a trip to the airport': 'ವಿಮಾನ ನಿಲ್ದಾಣಕ್ಕೆ ಪ್ರಯಾಣ ಯೋಜಿಸಿ',
+  'Plan from the airport': 'ವಿಮಾನ ನಿಲ್ದಾಣದಿಂದ ಪ್ರಯಾಣ ಯೋಜಿಸಿ',
+  'Monthly cost calculator': 'ತಿಂಗಳ ಖರ್ಚು ಲೆಕ್ಕಾಚಾರ',
+  'Metro, bus and pass costs for a daily trip': 'ದಿನನಿತ್ಯದ ಪ್ರಯಾಣಕ್ಕೆ ಮೆಟ್ರೋ, ಬಸ್ ಮತ್ತು ಪಾಸ್ ಖರ್ಚು',
+
+  // Planner form
+  From: 'ಎಲ್ಲಿಂದ',
+  To: 'ಎಲ್ಲಿಗೆ',
+  Swap: 'ಅದಲುಬದಲು',
+  'Leave now': 'ಈಗ ಹೊರಡಿ',
+  'In 30 min': '30 ನಿಮಿಷದಲ್ಲಿ',
+  'In 1 hour': '1 ಗಂಟೆಯಲ್ಲಿ',
+  'Find journeys': 'ಮಾರ್ಗ ಹುಡುಕಿ',
+  'Where are you starting?': 'ಎಲ್ಲಿಂದ ಆರಂಭಿಸುತ್ತೀರಿ?',
+  'Where are you going?': 'ಎಲ್ಲಿಗೆ ಹೋಗುತ್ತೀರಿ?',
+  'Leaving about {time}': 'ಸುಮಾರು {time}ಕ್ಕೆ ಹೊರಡುವುದು',
+
+  // Results
+  'Working out your options…': 'ನಿಮ್ಮ ಆಯ್ಕೆಗಳನ್ನು ಲೆಕ್ಕ ಹಾಕುತ್ತಿದೆ…',
+  'Calculated on this phone from bundled metro and bus data.': 'ಈ ಫೋನಿನಲ್ಲೇ, ಆ್ಯಪ್‌ನಲ್ಲಿರುವ ಮೆಟ್ರೋ ಮತ್ತು ಬಸ್ ಮಾಹಿತಿಯಿಂದ.',
+  'Couldn’t plan this one': 'ಈ ಪ್ರಯಾಣ ಯೋಜಿಸಲು ಆಗಲಿಲ್ಲ',
+  'Change places': 'ಸ್ಥಳ ಬದಲಿಸಿ',
+
+  // Journey
+  'Book whole journey': 'ಪೂರ್ಣ ಪ್ರಯಾಣ ಬುಕ್ ಮಾಡಿ',
+  'Save destination': 'ಗಮ್ಯಸ್ಥಾನ ಉಳಿಸಿ',
+  'Destination saved': 'ಗಮ್ಯಸ್ಥಾನ ಉಳಿಸಲಾಗಿದೆ',
+  'Compare in Google Maps': 'Google Maps ನಲ್ಲಿ ಹೋಲಿಸಿ',
+  'Good to know': 'ಗಮನಿಸಿ',
+  'Share trip': 'ಪ್ರಯಾಣ ಹಂಚಿಕೊಳ್ಳಿ',
+  Leave: 'ಹೊರಡುವುದು',
+  Arrive: 'ತಲುಪುವುದು',
+  Walk: 'ನಡಿಗೆ',
+  Changes: 'ಬದಲಾವಣೆ',
+
+  // Stop alert
+  'Alert me before my stop': 'ನನ್ನ ನಿಲ್ದಾಣಕ್ಕೆ ಮುಂಚೆ ತಿಳಿಸಿ',
+  'Stop alert is on': 'ನಿಲ್ದಾಣ ಎಚ್ಚರಿಕೆ ಆನ್ ಆಗಿದೆ',
+  'Turn off alert': 'ಎಚ್ಚರಿಕೆ ಆಫ್ ಮಾಡಿ',
+  'Get off soon: {stop}': 'ಶೀಘ್ರದಲ್ಲೇ ಇಳಿಯಿರಿ: {stop}',
+  'Next stop to get off: {stop}': 'ಇಳಿಯಬೇಕಾದ ಮುಂದಿನ ನಿಲ್ದಾಣ: {stop}',
+  '{distance} to go': 'ಇನ್ನೂ {distance}',
+  'Waiting for GPS…': 'GPS ಗಾಗಿ ಕಾಯುತ್ತಿದೆ…',
+  'Keep Hogona open on screen. The phone vibrates about 600 m before each stop where you change or get off.':
+    'Hogona ಅನ್ನು ಪರದೆಯ ಮೇಲೆ ತೆರೆದಿಡಿ. ಬದಲಾಯಿಸುವ ಅಥವಾ ಇಳಿಯುವ ನಿಲ್ದಾಣಕ್ಕೆ ಸುಮಾರು 600 ಮೀ ಮುಂಚೆ ಫೋನ್ ಕಂಪಿಸುತ್ತದೆ.',
+  'You have arrived.': 'ನೀವು ತಲುಪಿದ್ದೀರಿ.',
+  'Location permission is needed for the stop alert.': 'ನಿಲ್ದಾಣ ಎಚ್ಚರಿಕೆಗೆ ಸ್ಥಳದ ಅನುಮತಿ ಬೇಕು.',
+
+  // Rain
+  'Rain likely around {time} ({p}% chance). The metro avoids flooded roads and jams.': '{time} ಸುಮಾರಿಗೆ ಮಳೆಯ ಸಾಧ್ಯತೆ ({p}%). ಮೆಟ್ರೋದಲ್ಲಿ ಟ್ರಾಫಿಕ್ ಮತ್ತು ನೀರು ತುಂಬಿದ ರಸ್ತೆಗಳನ್ನು ತಪ್ಪಿಸಬಹುದು.',
+  'Rain likely in the next hour ({p}% chance). The metro avoids flooded roads and jams.': 'ಮುಂದಿನ ಒಂದು ಗಂಟೆಯಲ್ಲಿ ಮಳೆಯ ಸಾಧ್ಯತೆ ({p}%). ಮೆಟ್ರೋದಲ್ಲಿ ಟ್ರಾಫಿಕ್ ಮತ್ತು ನೀರು ತುಂಬಿದ ರಸ್ತೆಗಳನ್ನು ತಪ್ಪಿಸಬಹುದು.',
+  'Forecast from Open-Meteo': 'ಹವಾಮಾನ: Open-Meteo',
+
+  // Settings
+  Language: 'ಭಾಷೆ',
+  'Your travel': 'ನಿಮ್ಮ ಪ್ರಯಾಣ',
+  Privacy: 'ಗೌಪ್ಯತೆ',
+  'Where the data comes from': 'ಮಾಹಿತಿ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ',
+  'Station, stop and route names stay as published.': 'ನಿಲ್ದಾಣ, ಸ್ಟಾಪ್ ಮತ್ತು ಮಾರ್ಗಗಳ ಹೆಸರುಗಳು ಪ್ರಕಟವಾದಂತೆಯೇ ಇರುತ್ತವೆ.',
+};

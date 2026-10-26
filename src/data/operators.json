@@ -1,0 +1,193 @@
+{
+  "verifiedOn": "2026-10-22",
+  "operators": {
+    "namma-metro": {
+      "name": "Namma Metro (BMRCL)",
+      "website": "https://www.bmrc.co.in/",
+      "whatsapp": {
+        "supported": true,
+        "number": "918105556677",
+        "display": "+91 81055 56677",
+        "openingMessage": "Hi",
+        "flow": [
+          "WhatsApp opens the official Namma Metro chat with \"Hi\" typed in. Tap send yourself.",
+          "Choose English or Kannada, then buy a QR ticket (single journey or group).",
+          "Pick your From and To stations in the chat — use the stations shown in this app.",
+          "Pay by UPI inside WhatsApp. The QR ticket arrives in the chat only after payment succeeds.",
+          "Tickets are valid for that service day. Show the QR at the gate."
+        ],
+        "sources": [
+          "https://techcrunch.com/2022/10/31/india-bengaluru-metro-whatsapp-qr-ticketing-service",
+          "https://www.thenewsminute.com/karnataka/bengaluru-metro-now-lets-you-buy-tickets-whatsapp-here-s-how-169454"
+        ]
+      },
+      "otherChannels": [
+        "Namma Metro app",
+        "Paytm",
+        "ONDC apps (e.g. Namma Yatri, Rapido, Redbus, Tummoc)",
+        "Station ticket counters and smart card"
+      ],
+      "app": {
+        "name": "Namma Metro (BMRCL official app)",
+        "androidPackage": "com.aum.nammametro",
+        "playStore": "https://play.google.com/store/apps/details?id=com.aum.nammametro",
+        "iosAppStore": "https://apps.apple.com/in/app/namma-metro-bmrcl-official-app/id6740857835",
+        "source": "Google Play / App Store listings, developer BMRCL (checked 2026-10-22)"
+      }
+    },
+    "bmtc": {
+      "name": "BMTC",
+      "website": "https://mybmtc.karnataka.gov.in/",
+      "whatsapp": {
+        "supported": false,
+        "note": "BMTC has no official WhatsApp ticketing (checked 2026-10-22). Buy on board from the conductor (cash/UPI) or use the official Namma BMTC app."
+      },
+      "otherChannels": [
+        "Conductor on board (cash / UPI)",
+        "Namma BMTC app",
+        "Daily and monthly passes"
+      ],
+      "app": {
+        "name": "Namma BMTC",
+        "androidPackage": "com.bmtc.bmtcavls",
+        "playStore": "https://play.google.com/store/apps/details?id=com.bmtc.bmtcavls",
+        "iosAppStore": null,
+        "source": "Google Play listing (checked 2026-10-22); iOS App Store id not verified, so iPhone falls back to the BMTC website"
+      }
+    },
+    "uber": {
+      "name": "Uber",
+      "universalLink": "https://m.uber.com/looking",
+      "docs": "https://developer.uber.com/docs/riders/ride-requests/tutorials/deep-links/introduction",
+      "prefill": true
+    },
+    "rapido": {
+      "name": "Rapido",
+      "androidPackage": "com.rapido.passenger",
+      "iosAppStore": "https://apps.apple.com/app/id1198464606",
+      "playStore": "https://play.google.com/store/apps/details?id=com.rapido.passenger",
+      "website": "https://www.rapido.bike/",
+      "prefill": false,
+      "note": "Rapido documents no public deep link for pickup/drop. The app opens Rapido; you enter pickup and drop there (this app copies them for you).",
+      "app": {
+        "name": "Rapido",
+        "androidPackage": "com.rapido.passenger",
+        "playStore": "https://play.google.com/store/apps/details?id=com.rapido.passenger",
+        "iosAppStore": "https://apps.apple.com/app/id1198464606",
+        "source": "store listings"
+      }
+    },
+    "ksrtc": {
+      "name": "KSRTC",
+      "website": "https://ksrtc.in/",
+      "whatsapp": {
+        "supported": false
+      },
+      "app": {
+        "name": "KSRTC AWATAR",
+        "androidPackage": "com.ksrtc.awatar.new",
+        "playStore": "https://play.google.com/store/apps/details?id=com.ksrtc.awatar.new",
+        "iosAppStore": "https://apps.apple.com/in/app/ksrtc-awatar/id1250082402",
+        "source": "Google Play / App Store listings, developer KSRTC (checked 2026-10-24)"
+      },
+      "note": "Official KSRTC online booking. No documented pre-fill link; choose cities and date in KSRTC.",
+      "sources": [
+        "https://ksrtc.in"
+      ]
+    },
+    "irctc": {
+      "name": "Indian Railways (IRCTC)",
+      "website": "https://www.irctc.co.in/nget/train-search",
+      "whatsapp": {
+        "supported": false
+      },
+      "app": {
+        "name": "IRCTC Rail Connect",
+        "androidPackage": "cris.org.in.prs.ima",
+        "playStore": "https://play.google.com/store/apps/details?id=cris.org.in.prs.ima",
+        "iosAppStore": "https://apps.apple.com/app/id1386197253",
+        "source": "App Store listing (developer Indian Railway Catering and Tourism Corporation Limited) and Android package cris.org.in.prs.ima, checked 2026-10-24"
+      },
+      "note": "Official Indian Railways reserved ticketing. No documented pre-fill link; the station codes are copied for pasting. Train running times: NTES.",
+      "ntes": "https://enquiry.indianrail.gov.in/mntes/",
+      "sources": [
+        "https://www.irctc.co.in",
+        "https://apps.apple.com/app/id1386197253",
+        "https://enquiry.indianrail.gov.in/mntes/"
+      ]
+    }
+  },
+  "rideApps": [
+    {
+      "id": "ola",
+      "name": "Ola",
+      "androidPackage": "com.olacabs.customer",
+      "playStore": "https://play.google.com/store/apps/details?id=com.olacabs.customer",
+      "iosAppStore": "https://apps.apple.com/in/app/id539179365",
+      "website": "https://book.olacabs.com/",
+      "prefillLink": "https://book.olacabs.com/?lat={plat}&lng={plon}&drop_lat={dlat}&drop_lng={dlon}&pickup_name={pname}&drop_name={dname}",
+      "note": "Documented web booking link pre-fills pickup and drop; opens inside Hogona. Sign in to Ola there to book.",
+      "sources": [
+        "https://developers.olacabs.com/docs/deep-linking"
+      ]
+    },
+    {
+      "id": "rapido",
+      "name": "Rapido",
+      "androidPackage": "com.rapido.passenger",
+      "playStore": "https://play.google.com/store/apps/details?id=com.rapido.passenger",
+      "iosAppStore": "https://apps.apple.com/app/id1198464606",
+      "website": "https://www.rapido.bike/",
+      "prefillLink": null,
+      "note": "No documented pre-fill link and no web booking. Opens the app; pickup and drop are copied.",
+      "sources": [
+        "https://www.rapido.bike/"
+      ]
+    },
+    {
+      "id": "namma-yatri",
+      "name": "Namma Yatri",
+      "androidPackage": "in.juspay.nammayatri",
+      "playStore": "https://play.google.com/store/apps/details?id=in.juspay.nammayatri",
+      "iosAppStore": "https://apps.apple.com/in/app/id1637429831",
+      "website": "https://nammayatri.in/",
+      "prefillLink": null,
+      "note": "No documented pre-fill link. Opens the app; pickup and drop are copied.",
+      "sources": [
+        "https://github.com/nammayatri/nammayatri"
+      ]
+    },
+    {
+      "id": "indrive",
+      "name": "inDrive",
+      "androidPackage": "sinet.startup.inDriver",
+      "playStore": "https://play.google.com/store/apps/details?id=sinet.startup.inDriver",
+      "iosAppStore": "https://apps.apple.com/in/app/id780125801",
+      "website": "https://indrive.com/en-in",
+      "prefillLink": null,
+      "note": "No documented pre-fill link. Opens the app; pickup and drop are copied.",
+      "sources": [
+        "https://indrive.com/en-in"
+      ]
+    },
+    {
+      "id": "quick-ride",
+      "name": "Quick Ride",
+      "androidPackage": "com.disha.quickride",
+      "playStore": "https://play.google.com/store/apps/details?id=com.disha.quickride",
+      "iosAppStore": "https://apps.apple.com/in/app/id1071794769",
+      "website": "https://www.quickride.in/",
+      "prefillLink": null,
+      "note": "Carpool and taxi. No documented pre-fill link. Opens the app; pickup and drop are copied.",
+      "sources": [
+        "https://www.quickride.in/"
+      ]
+    }
+  ],
+  "rideAppsVerifiedOn": "2026-10-22",
+  "rideAppsExcluded": {
+    "BluSmart": "Stopped bookings April 2025",
+    "Meru/Alyte": "Not operating in Bengaluru as of Oct 2026",
+    "Yulu, Bounce": "Vehicle rentals, not point-to-point rides"
+  }
+}

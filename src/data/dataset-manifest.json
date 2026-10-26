@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-22",
+  "datasets": {
+    "metro": {
+      "files": [
+        "metro-stations.json",
+        "metro-lines.json",
+        "metro-transfers.json"
+      ],
+      "source": "OpenStreetMap route relations 7841331 (Purple), 7842287 (Green), 19421944 (Yellow), via Overpass API",
+      "licence": "ODbL 1.0 — © OpenStreetMap contributors",
+      "cross-checked": "Open lines/sections confirmed against BMRCL and news reports on 2026-10-22: Purple Challaghatta–Whitefield (Kadugodi), Green Madavara–Silk Institute, Yellow RV Road–Delta Electronics Bommasandra. Pink and Blue lines were NOT open on that date and are not included.",
+      "updateMethod": "npm run data:import",
+      "importedOn": "2026-10-22",
+      "osmSnapshot": "2026-10-22T05:41:34Z"
+    },
+    "bmtc": {
+      "files": [
+        "bmtc-stops.json",
+        "bmtc-routes.json"
+      ],
+      "source": "GTFS feed: https://github.com/Vonter/bmtc-gtfs",
+      "licence": "ODbL 1.0 — community BMTC GTFS by Vonter (github.com/Vonter/bmtc-gtfs), sourced from the Namma BMTC app; unofficial",
+      "coverage": "7473 route patterns from GTFS.",
+      "updateMethod": "npm run data:import (or import a GTFS feed you are licensed to use: npm run data:gtfs -- <path-to-gtfs-folder>)",
+      "importedOn": "2026-10-24",
+      "osmSnapshot": null
+    },
+    "bmtcSchedules": {
+      "files": [
+        "bmtc-schedules.json"
+      ],
+      "status": "gtfs-average-headway",
+      "note": "Average headway per route from the imported GTFS timetable. Not live."
+    },
+    "fares": {
+      "files": [
+        "fare-tables.json"
+      ],
+      "source": "See per-table sources in fare-tables.json",
+      "verifiedOn": "2026-10-22"
+    }
+  }
+}

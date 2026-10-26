@@ -1,0 +1,22 @@
+{
+  "note": "Pass prices as reported in the press. Not confirmed on an official BMTC or BMRCL page: bmtc.karnataka.gov.in failed with a certificate error and bmrc.co.in did not load its fare page when checked on 2026-10-24.",
+  "checkedOn": "2026-10-24",
+  "bmtc": {
+    "status": "reported",
+    "effectiveFrom": "2025-01-13",
+    "source": "https://coachbuildersindia.com/bmtc-bus-pass-new-prices-revised-rate",
+    "dailyNonAc": 80,
+    "weeklyNonAc": 350,
+    "monthlyNonAc": 1200,
+    "vajraDaily": 140,
+    "vajraMonthly": 2000,
+    "vayuVajraMonthly": 4000
+  },
+  "metroSmartCard": {
+    "status": "reported",
+    "source": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-namma-metro-fares-set-to-rise-by-up-to-50-from-february-9-3396598",
+    "discountPeakPct": 5,
+    "discountOffPeakPct": 10,
+    "note": "Smart card discount reported as 5% at peak and 10% off-peak and on Sundays and national holidays (Feb 2025). A proposed 2026 fare rise was put on hold with discounts kept (goodreturns.in, 22 May 2026)."
+  }
+}

@@ -1,0 +1,120 @@
+/** Hindi. Keys are the English UI text. */
+export const hi: Record<string, string> = {
+  // Tabs and screen titles
+  Plan: 'यात्रा',
+  Map: 'नक्शा',
+  Saved: 'सेव',
+  Activity: 'गतिविधि',
+  Settings: 'सेटिंग्स',
+  'Choose a place': 'जगह चुनें',
+  Journeys: 'रास्ते',
+  'Your journey': 'आपकी यात्रा',
+  'Book journey': 'यात्रा बुक करें',
+  'Bus routes': 'बस रूट',
+  'Privacy & about': 'प्राइवेसी और जानकारी',
+  'Metro lines & timings': 'मेट्रो लाइन और समय',
+  Airport: 'एयरपोर्ट',
+  'Monthly cost': 'महीने का खर्च',
+
+  // Home
+  'Use my location': 'मेरी लोकेशन',
+  'Finding you…': 'आपको ढूंढ रहे हैं…',
+  'Where do you want to go today?': 'आज कहाँ जाना है?',
+  'Saved places': 'सेव की गई जगहें',
+  Edit: 'बदलें',
+  'Recent trips': 'हाल की यात्राएँ',
+  'Metro near you': 'आपके पास मेट्रो',
+  More: 'और',
+  'Metro map': 'मेट्रो नक्शा',
+  'All stations and lines': 'सभी स्टेशन और लाइनें',
+  'Metro timings': 'मेट्रो का समय',
+  'First and last trains, frequency, stations': 'पहली और आखिरी ट्रेन, कितनी देर में, स्टेशन',
+  'Bus route map': 'बस रूट नक्शा',
+  'Find a bus number and see all its stops': 'बस नंबर ढूंढें और उसके सारे स्टॉप देखें',
+  'Buy a metro ticket on WhatsApp': 'WhatsApp पर मेट्रो टिकट लें',
+  'Official Namma Metro chat': 'नम्मा मेट्रो की आधिकारिक चैट',
+  'Plans this trip again': 'यह यात्रा फिर से प्लान करें',
+  'Starts from this station': 'इस स्टेशन से शुरू करें',
+
+  // Commute
+  'Your commute': 'रोज़ का सफ़र',
+  Home: 'घर',
+  Work: 'ऑफ़िस',
+  'Set home': 'घर चुनें',
+  'Set work': 'ऑफ़िस चुनें',
+  'Go home': 'घर जाएँ',
+  'Go to work': 'ऑफ़िस जाएँ',
+  Change: 'बदलें',
+  Remove: 'हटाएँ',
+  'Not set': 'चुना नहीं',
+  'Set your home and work once, then plan the daily trip in one tap.': 'एक बार घर और ऑफ़िस चुनें, फिर रोज़ की यात्रा एक टैप में।',
+  'Nearest metro: {station}': 'सबसे पास मेट्रो: {station}',
+  'Trains about every {n} min': 'लगभग हर {n} मिनट में ट्रेन',
+  'Last train about {time}': 'आखिरी ट्रेन लगभग {time}',
+  'Timings for this line are not verified yet': 'इस लाइन का समय अभी पक्का नहीं है',
+  'Choose your home': 'अपना घर चुनें',
+  'Choose your work place': 'अपना ऑफ़िस चुनें',
+
+  // Airport + cost
+  'Airport buses': 'एयरपोर्ट बसें',
+  'Vayu Vajra (KIA) routes and how to reach the airport': 'वायु वज्र (KIA) रूट और एयरपोर्ट कैसे पहुँचें',
+  'Plan a trip to the airport': 'एयरपोर्ट की यात्रा प्लान करें',
+  'Plan from the airport': 'एयरपोर्ट से यात्रा प्लान करें',
+  'Monthly cost calculator': 'महीने का खर्च कैलकुलेटर',
+  'Metro, bus and pass costs for a daily trip': 'रोज़ की यात्रा का मेट्रो, बस और पास खर्च',
+
+  // Planner form
+  From: 'कहाँ से',
+  To: 'कहाँ तक',
+  Swap: 'बदलें',
+  'Leave now': 'अभी निकलें',
+  'In 30 min': '30 मिनट में',
+  'In 1 hour': '1 घंटे में',
+  'Find journeys': 'रास्ते ढूंढें',
+  'Where are you starting?': 'कहाँ से शुरू कर रहे हैं?',
+  'Where are you going?': 'कहाँ जा रहे हैं?',
+  'Leaving about {time}': 'लगभग {time} बजे निकलना',
+
+  // Results
+  'Working out your options…': 'आपके विकल्प निकाल रहे हैं…',
+  'Calculated on this phone from bundled metro and bus data.': 'इसी फ़ोन पर, ऐप में रखे मेट्रो और बस डेटा से।',
+  'Couldn’t plan this one': 'यह यात्रा प्लान नहीं हो सकी',
+  'Change places': 'जगह बदलें',
+
+  // Journey
+  'Book whole journey': 'पूरी यात्रा बुक करें',
+  'Save destination': 'मंज़िल सेव करें',
+  'Destination saved': 'मंज़िल सेव हो गई',
+  'Compare in Google Maps': 'Google Maps में तुलना करें',
+  'Good to know': 'ध्यान दें',
+  'Share trip': 'यात्रा शेयर करें',
+  Leave: 'निकलें',
+  Arrive: 'पहुँचें',
+  Walk: 'पैदल',
+  Changes: 'बदलाव',
+
+  // Stop alert
+  'Alert me before my stop': 'मेरे स्टॉप से पहले बताएँ',
+  'Stop alert is on': 'स्टॉप अलर्ट चालू है',
+  'Turn off alert': 'अलर्ट बंद करें',
+  'Get off soon: {stop}': 'जल्दी उतरें: {stop}',
+  'Next stop to get off: {stop}': 'उतरने का अगला स्टॉप: {stop}',
+  '{distance} to go': 'अभी {distance} बाकी',
+  'Waiting for GPS…': 'GPS का इंतज़ार…',
+  'Keep Hogona open on screen. The phone vibrates about 600 m before each stop where you change or get off.':
+    'Hogona को स्क्रीन पर खुला रखें। जहाँ बदलना या उतरना है, उस स्टॉप से लगभग 600 मीटर पहले फ़ोन वाइब्रेट करेगा।',
+  'You have arrived.': 'आप पहुँच गए।',
+  'Location permission is needed for the stop alert.': 'स्टॉप अलर्ट के लिए लोकेशन की अनुमति चाहिए।',
+
+  // Rain
+  'Rain likely around {time} ({p}% chance). The metro avoids flooded roads and jams.': '{time} के आसपास बारिश की संभावना ({p}%)। मेट्रो में जाम और पानी भरी सड़कों से बचेंगे।',
+  'Rain likely in the next hour ({p}% chance). The metro avoids flooded roads and jams.': 'अगले एक घंटे में बारिश की संभावना ({p}%)। मेट्रो में जाम और पानी भरी सड़कों से बचेंगे।',
+  'Forecast from Open-Meteo': 'मौसम: Open-Meteo',
+
+  // Settings
+  Language: 'भाषा',
+  'Your travel': 'आपकी यात्रा',
+  Privacy: 'प्राइवेसी',
+  'Where the data comes from': 'डेटा कहाँ से आता है',
+  'Station, stop and route names stay as published.': 'स्टेशन, स्टॉप और रूट के नाम वैसे ही रहते हैं जैसे प्रकाशित हैं।',
+};

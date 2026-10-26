@@ -39,3 +39,13 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local env and data-import cache
+.env
+scripts/.cache/
+
+# local build tools (gradle zip)
+.tools/
+
+# Vercel link folder
+.vercel

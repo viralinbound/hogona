@@ -1,0 +1,64 @@
+{
+  "metro": {
+    "operator": "BMRCL (Namma Metro)",
+    "currency": "INR",
+    "effectiveFrom": "2025-02-09",
+    "basis": "Token / QR single-journey fare by chargeable distance between entry and exit station (one fare across interchanges).",
+    "slabs": [
+      { "uptoKm": 2, "fare": 10 },
+      { "uptoKm": 4, "fare": 20 },
+      { "uptoKm": 6, "fare": 30 },
+      { "uptoKm": 8, "fare": 40 },
+      { "uptoKm": 10, "fare": 50 },
+      { "uptoKm": 15, "fare": 60 },
+      { "uptoKm": 20, "fare": 70 },
+      { "uptoKm": 25, "fare": 80 },
+      { "uptoKm": 30, "fare": 90 },
+      { "uptoKm": null, "fare": 90 }
+    ],
+    "discounts": {
+      "qrTicketPct": 5,
+      "smartCardPct": 5,
+      "smartCardOffPeakExtraPct": 5,
+      "offPeakWeekday": ["open-08:00", "12:00-16:00", "21:00-close"],
+      "sundayAndNationalHolidaysPct": 10
+    },
+    "caveats": [
+      "In Feb 2025 BMRCL hand-adjusted roughly 600 of 4,624 station pairs, so some pairs differ from the slab table.",
+      "Distance here is measured along the OSM track geometry, which can differ slightly from BMRCL's chargeable distance.",
+      "A 5% revision announced on 2026-02-05 was put in abeyance on 2026-02-09; status re-checked 2026-10-22.",
+      "Some sources print the 10-15 km slab as 10-12 km."
+    ],
+    "sources": [
+      "https://thesouthfirst.com/karnataka/bengaluru-metro-ride-to-cost-more-bmrcl-fare-hike-to-take-effect-from-9-february/",
+      "https://www.goodreturns.in/news/bengaluru-namma-metro-fare-hike-update-bmrcl-keeps-5-increase-on-hold-amid-public-protest-bangalore-1488065.html"
+    ],
+    "confidence": "estimate"
+  },
+  "bmtc": {
+    "operator": "BMTC",
+    "currency": "INR",
+    "effectiveFrom": "2025-01-05",
+    "basis": "Ordinary (non-AC) stage fare. Only the first stages are reliably published; longer trips have no verified fare in this app.",
+    "ordinaryStages": [
+      { "uptoKm": 2, "fare": 6 },
+      { "uptoKm": 4, "fare": 12 },
+      { "uptoKm": 6, "fare": 18 }
+    ],
+    "ordinaryVerifiedUptoKm": 6,
+    "acFares": null,
+    "shakti": "Women resident in Karnataka travel free on BMTC non-AC ordinary buses (Shakti scheme, since 2023-06-11). Vajra / Vayu Vajra / EV Power Plus are excluded.",
+    "caveats": [
+      "The full post-January-2025 stage table could not be verified from an official BMTC source on 2026-10-22.",
+      "AC (Vajra / Vayu Vajra) fares are not bundled."
+    ],
+    "sources": [
+      "https://onmanorama.com/travel/travel-news/2025/01/07/karnataka-hikes-bus-fare-ksrtc-benefits.html",
+      "https://www.deccanherald.com/india/karnataka/guidelines-released-for-free-travel-bus-scheme-for-women-in-karnataka-1225093.html"
+    ],
+    "confidence": "estimate"
+  },
+  "rideHailing": {
+    "note": "No ride-hailing fare is calculated by this app. Uber and Rapido show the real fare in their own apps before you confirm."
+  }
+}

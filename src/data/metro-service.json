@@ -1,0 +1,39 @@
+{
+  "note": "Scheduled service information only. Nothing here is a live arrival prediction.",
+  "officialTimingsUrl": "https://www.bmrc.co.in/metro-timings/",
+  "officialMapUrl": "https://www.bmrc.co.in/schematic-route-map/",
+  "lines": {
+    "purple": {
+      "hours": null,
+      "headwayMin": null,
+      "status": "unverified",
+      "note": "BMRCL's timings page did not return a timetable when checked on 2026-10-22. Check the official page before travelling early or late."
+    },
+    "green": {
+      "hours": null,
+      "headwayMin": null,
+      "status": "unverified",
+      "note": "BMRCL's timings page did not return a timetable when checked on 2026-10-22. Check the official page before travelling early or late."
+    },
+    "yellow": {
+      "hours": {
+        "weekdayFirst": "06:00",
+        "sundayFirst": "07:00",
+        "lastFromFirstStation": "23:55",
+        "lastFromLastStation": "22:42",
+        "terminals": "First station = Rashtreeya Vidyalaya Road, last station = Delta Electronics Bommasandra"
+      },
+      "headwayMin": { "peak": 7, "offPeak": 10 },
+      "status": "reported",
+      "source": "https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-bengaluru-yellow-line-trains-to-run-every-19-mins-from-september-10-3719425",
+      "note": "As reported by Deccan Herald (Sept–Dec 2025). Not confirmed on bmrc.co.in."
+    }
+  },
+  "planning": {
+    "metroSpeedKmh": 34,
+    "metroDwellSec": 30,
+    "assumedWaitMinUnknownHeadway": 5,
+    "interchangeWalkMin": 4,
+    "explanation": "Run times are estimated from track distance at an average 34 km/h plus 30 s per stop. Where no published headway exists, a 5-minute average wait is assumed and labelled as an assumption."
+  }
+}

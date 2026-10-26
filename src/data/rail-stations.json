@@ -1,0 +1,3269 @@
+{
+ "source": "OpenStreetMap contributors (ODbL), railway=station/halt or train stations in Karnataka with a station code",
+ "snapshot": "2026-10-24",
+ "stations": [
+  {
+   "code": "ABGT",
+   "name": "Arabaghatta",
+   "lat": 13.894293,
+   "lon": 76.138265,
+   "osmId": "node/4597673860"
+  },
+  {
+   "code": "ACCI",
+   "name": "Adichunchanagiri",
+   "lat": 12.969492,
+   "lon": 76.758376,
+   "osmId": "node/6119063199"
+  },
+  {
+   "code": "ADHL",
+   "name": "Adihalli",
+   "lat": 13.296113,
+   "lon": 76.325996,
+   "osmId": "node/4838807292"
+  },
+  {
+   "code": "AEK",
+   "name": "Anekal Road",
+   "lat": 12.723608,
+   "lon": 77.71053,
+   "osmId": "node/695086486"
+  },
+  {
+   "code": "AEX",
+   "name": "Adderi",
+   "lat": 14.142853,
+   "lon": 75.153403,
+   "osmId": "node/6121778027"
+  },
+  {
+   "code": "AGL",
+   "name": "Amargol",
+   "lat": 15.411329,
+   "lon": 75.098174,
+   "osmId": "node/6094406607"
+  },
+  {
+   "code": "AJP",
+   "name": "Ajjampura",
+   "lat": 13.731079,
+   "lon": 76.010299,
+   "osmId": "node/4597685294"
+  },
+  {
+   "code": "AKK",
+   "name": "Akkihebbalu",
+   "lat": 12.625448,
+   "lon": 76.378275,
+   "osmId": "node/6084177172"
+  },
+  {
+   "code": "ALUR",
+   "name": "Alur",
+   "lat": 12.981732,
+   "lon": 76.000405,
+   "osmId": "node/4855254016"
+  },
+  {
+   "code": "AMC",
+   "name": "Amritapura",
+   "lat": 14.139258,
+   "lon": 76.243887,
+   "osmId": "node/4597939355"
+  },
+  {
+   "code": "AMSA",
+   "name": "Ammasandra",
+   "lat": 13.264938,
+   "lon": 76.712066,
+   "osmId": "node/1801510305"
+  },
+  {
+   "code": "ANC",
+   "name": "Annechakanahali",
+   "lat": 12.739862,
+   "lon": 76.27982,
+   "osmId": "node/4855254017"
+  },
+  {
+   "code": "ANF",
+   "name": "Anandapuram",
+   "lat": 14.074745,
+   "lon": 75.209857,
+   "osmId": "node/2418722563"
+  },
+  {
+   "code": "ANGR",
+   "name": "Angadgeri",
+   "lat": 16.451496,
+   "lon": 75.84586,
+   "osmId": "node/4855254018"
+  },
+  {
+   "code": "ANKL",
+   "name": "Ankola",
+   "lat": 14.645359,
+   "lon": 74.331925,
+   "osmId": "node/2548066537"
+  },
+  {
+   "code": "AP",
+   "name": "Ashokapuram",
+   "lat": 12.274088,
+   "lon": 76.636012,
+   "osmId": "node/992634868"
+  },
+  {
+   "code": "ARGP",
+   "name": "Aralaguppe",
+   "lat": 13.253224,
+   "lon": 76.613447,
+   "osmId": "node/2266574834"
+  },
+  {
+   "code": "ARNH",
+   "name": "Arjunahalli",
+   "lat": 12.528406,
+   "lon": 76.382923,
+   "osmId": "node/6084105632"
+  },
+  {
+   "code": "ARU",
+   "name": "Arasalu",
+   "lat": 13.99863,
+   "lon": 75.312777,
+   "osmId": "node/1368274364"
+  },
+  {
+   "code": "ASK",
+   "name": "Arsikere Junction",
+   "lat": 13.313782,
+   "lon": 76.253199,
+   "osmId": "node/1153239883"
+  },
+  {
+   "code": "AT",
+   "name": "Asnoti",
+   "lat": 14.87629,
+   "lon": 74.147593,
+   "osmId": "node/1678218711"
+  },
+  {
+   "code": "AVA",
+   "name": "Ambewadi",
+   "lat": 15.272911,
+   "lon": 74.617434,
+   "osmId": "node/1225732184"
+  },
+  {
+   "code": "AVC",
+   "name": "Amaravathi Colony Junction",
+   "lat": 14.49898,
+   "lon": 75.852125,
+   "osmId": "node/3198271987"
+  },
+  {
+   "code": "AVT",
+   "name": "Avatihalli",
+   "lat": 13.298907,
+   "lon": 77.726286,
+   "osmId": "node/6071990687"
+  },
+  {
+   "code": "BAHI",
+   "name": "Balenahalli",
+   "lat": 14.244472,
+   "lon": 76.554599,
+   "osmId": "node/4615639310"
+  },
+  {
+   "code": "BAJE",
+   "name": "Bajakere",
+   "lat": 12.720709,
+   "lon": 75.509811,
+   "osmId": "node/6087240772"
+  },
+  {
+   "code": "BAND",
+   "name": "Banaswadi",
+   "lat": 13.005836,
+   "lon": 77.628132,
+   "osmId": "node/443807288"
+  },
+  {
+   "code": "BAW",
+   "name": "Chikkabanavara",
+   "lat": 13.074679,
+   "lon": 77.505637,
+   "osmId": "node/308073351"
+  },
+  {
+   "code": "BAY",
+   "name": "Ballari Junction",
+   "lat": 15.145532,
+   "lon": 76.923582,
+   "osmId": "node/6132090321"
+  },
+  {
+   "code": "BBD",
+   "name": "Bablad",
+   "lat": 17.336835,
+   "lon": 76.779337,
+   "osmId": "node/6161287646"
+  },
+  {
+   "code": "BDGP",
+   "name": "Badanaguppe",
+   "lat": 11.996066,
+   "lon": 76.858827,
+   "osmId": "node/6083094634"
+  },
+  {
+   "code": "BDGU",
+   "name": "Budagumpa",
+   "lat": 15.395734,
+   "lon": 76.297192,
+   "osmId": "node/6138455049"
+  },
+  {
+   "code": "BDM",
+   "name": "Badami",
+   "lat": 15.959265,
+   "lon": 75.676822,
+   "osmId": "way/785411472"
+  },
+  {
+   "code": "BDRL",
+   "name": "Byadarahalli",
+   "lat": 12.501991,
+   "lon": 76.752221,
+   "osmId": "node/6080255489"
+  },
+  {
+   "code": "BDVT",
+   "name": "Bhadravati",
+   "lat": 13.842643,
+   "lon": 75.703469,
+   "osmId": "node/1102564020"
+  },
+  {
+   "code": "BEHI",
+   "name": "Bennihalli",
+   "lat": 14.787599,
+   "lon": 76.119026,
+   "osmId": "node/4397913105"
+  },
+  {
+   "code": "BEI",
+   "name": "Shimoga Bidare",
+   "lat": 13.903833,
+   "lon": 75.640715,
+   "osmId": "node/6121463260"
+  },
+  {
+   "code": "BEML",
+   "name": "BEML Nagar",
+   "lat": 12.978733,
+   "lon": 78.241775,
+   "osmId": "node/1844248842"
+  },
+  {
+   "code": "BENL",
+   "name": "Benal",
+   "lat": 16.384662,
+   "lon": 75.881645,
+   "osmId": "node/6133953343"
+  },
+  {
+   "code": "BFW",
+   "name": "Byatrayanahalli",
+   "lat": 12.995527,
+   "lon": 78.017494,
+   "osmId": "node/6065388673"
+  },
+  {
+   "code": "BGK",
+   "name": "Bagalkot",
+   "lat": 16.179322,
+   "lon": 75.699932,
+   "osmId": "node/655264380"
+  },
+  {
+   "code": "BGM",
+   "name": "Belagavi",
+   "lat": 15.849057,
+   "lon": 74.508943,
+   "osmId": "node/582437498"
+  },
+  {
+   "code": "BGNR",
+   "name": "B.G Nagar",
+   "lat": 12.968288,
+   "lon": 76.733127,
+   "osmId": "node/5416750422"
+  },
+  {
+   "code": "BGPA",
+   "name": "Bageshapura",
+   "lat": 13.143223,
+   "lon": 76.229337,
+   "osmId": "node/2850694071"
+  },
+  {
+   "code": "BGV",
+   "name": "Balegundi",
+   "lat": 14.157235,
+   "lon": 75.108183,
+   "osmId": "node/6121785876"
+  },
+  {
+   "code": "BGWD",
+   "name": "Bagewadi",
+   "lat": 16.307482,
+   "lon": 74.753525,
+   "osmId": "node/6104848383"
+  },
+  {
+   "code": "BHLK",
+   "name": "Bhalki",
+   "lat": 18.047069,
+   "lon": 77.228138,
+   "osmId": "node/4705536596"
+  },
+  {
+   "code": "BID",
+   "name": "Bidadi",
+   "lat": 12.800623,
+   "lon": 77.390173,
+   "osmId": "node/2140205532"
+  },
+  {
+   "code": "BIDR",
+   "name": "Bidar",
+   "lat": 17.911886,
+   "lon": 77.515435,
+   "osmId": "node/702374965"
+  },
+  {
+   "code": "BIJR",
+   "name": "Bijoor",
+   "lat": 13.822007,
+   "lon": 74.642619,
+   "osmId": "node/2548066552"
+  },
+  {
+   "code": "BJP",
+   "name": "Vijayapura",
+   "lat": 16.830361,
+   "lon": 75.739477,
+   "osmId": "node/655301239"
+  },
+  {
+   "code": "BKIT",
+   "name": "Binkadakatti",
+   "lat": 15.436697,
+   "lon": 75.596092,
+   "osmId": "node/6123063472"
+  },
+  {
+   "code": "BKJ",
+   "name": "Barkur",
+   "lat": 13.477027,
+   "lon": 74.759868,
+   "osmId": "node/2548066547"
+  },
+  {
+   "code": "BLGA",
+   "name": "Belagula",
+   "lat": 12.386123,
+   "lon": 76.588847,
+   "osmId": "node/6084009845"
+  },
+  {
+   "code": "BLHI",
+   "name": "Bisale Halli",
+   "lat": 13.481428,
+   "lon": 75.967047,
+   "osmId": "node/1699868072"
+  },
+  {
+   "code": "BLKR",
+   "name": "Ballekere",
+   "lat": 13.499163,
+   "lon": 76.025416,
+   "osmId": "node/6089324182"
+  },
+  {
+   "code": "BLLT",
+   "name": "Balupete",
+   "lat": 12.958065,
+   "lon": 75.883328,
+   "osmId": "node/6086235557"
+  },
+  {
+   "code": "BLR",
+   "name": "Balganur",
+   "lat": 15.594704,
+   "lon": 75.602769,
+   "osmId": "node/1600080681"
+  },
+  {
+   "code": "BLRR",
+   "name": "Belandur Road",
+   "lat": 12.93856,
+   "lon": 77.707137,
+   "osmId": "node/253514986"
+  },
+  {
+   "code": "BNA",
+   "name": "Banni Koppa",
+   "lat": 15.406497,
+   "lon": 75.941753,
+   "osmId": "node/1604664691"
+  },
+  {
+   "code": "BNC",
+   "name": "Bangalore Cantonment",
+   "lat": 12.993687,
+   "lon": 77.598,
+   "osmId": "node/246397026"
+  },
+  {
+   "code": "BNCE",
+   "name": "Bengaluru East",
+   "lat": 13.001146,
+   "lon": 77.618345,
+   "osmId": "node/253454039"
+  },
+  {
+   "code": "BNHL",
+   "name": "Bellenahalli",
+   "lat": 13.74259,
+   "lon": 75.775591,
+   "osmId": "node/6121228283"
+  },
+  {
+   "code": "BNHT",
+   "name": "Bannihatti",
+   "lat": 15.144466,
+   "lon": 76.622361,
+   "osmId": "node/4028153528"
+  },
+  {
+   "code": "BNK",
+   "name": "Banashankari",
+   "lat": 13.266643,
+   "lon": 76.524653,
+   "osmId": "node/1814581414"
+  },
+  {
+   "code": "BNKH",
+   "name": "Bhairanayakanahalli",
+   "lat": 13.193977,
+   "lon": 77.38279,
+   "osmId": "node/6087642674"
+  },
+  {
+   "code": "BNP",
+   "name": "Bhanapur",
+   "lat": 15.38657,
+   "lon": 76.038971,
+   "osmId": "node/654209479"
+  },
+  {
+   "code": "BNTL",
+   "name": "Bantawal",
+   "lat": 12.878167,
+   "lon": 75.034092,
+   "osmId": "node/670960045"
+  },
+  {
+   "code": "BOMN",
+   "name": "Bommagundanakere",
+   "lat": 14.587806,
+   "lon": 76.680336,
+   "osmId": "node/4615790622"
+  },
+  {
+   "code": "BRBL",
+   "name": "Birahalli",
+   "lat": 12.664732,
+   "lon": 76.385124,
+   "osmId": "node/6084189081"
+  },
+  {
+   "code": "BSM",
+   "name": "Bisanattam",
+   "lat": 12.842245,
+   "lon": 78.249858,
+   "osmId": "node/248543525"
+  },
+  {
+   "code": "BSN",
+   "name": "Banasandra",
+   "lat": 13.265551,
+   "lon": 76.660606,
+   "osmId": "node/1801510237"
+  },
+  {
+   "code": "BSRX",
+   "name": "Basavana Bagewadi Road",
+   "lat": 16.480299,
+   "lon": 75.828287,
+   "osmId": "node/672865414"
+  },
+  {
+   "code": "BTGH",
+   "name": "Bettadanagenahalli",
+   "lat": 14.182931,
+   "lon": 76.271177,
+   "osmId": "node/4597926572"
+  },
+  {
+   "code": "BTJL",
+   "name": "Bhatkal",
+   "lat": 13.989357,
+   "lon": 74.56563,
+   "osmId": "node/571579127"
+  },
+  {
+   "code": "BVR",
+   "name": "Banavar",
+   "lat": 13.395825,
+   "lon": 76.140481,
+   "osmId": "node/2269517698"
+  },
+  {
+   "code": "BWT",
+   "name": "Bangarpet Junction",
+   "lat": 12.985495,
+   "lon": 78.178224,
+   "osmId": "node/5760183667"
+  },
+  {
+   "code": "BYC",
+   "name": "Ballari Cantonment",
+   "lat": 15.158252,
+   "lon": 76.883512,
+   "osmId": "node/4314660390"
+  },
+  {
+   "code": "BYD",
+   "name": "Byadgi",
+   "lat": 14.699155,
+   "lon": 75.489622,
+   "osmId": "node/6091755111"
+  },
+  {
+   "code": "BYNR",
+   "name": "Mookambika Road Byndoor",
+   "lat": 13.8718,
+   "lon": 74.632716,
+   "osmId": "node/2589910002"
+  },
+  {
+   "code": "BYO",
+   "name": "Bayaluvaddigeri",
+   "lat": 15.229989,
+   "lon": 76.535912,
+   "osmId": "node/6129807083"
+  },
+  {
+   "code": "BYPL",
+   "name": "Baiyyappanahalli Junction",
+   "lat": 12.991209,
+   "lon": 77.651714,
+   "osmId": "node/1177155562"
+  },
+  {
+   "code": "CASK",
+   "name": "Chikka-Shellikeri",
+   "lat": 16.160507,
+   "lon": 75.497658,
+   "osmId": "node/6138417620"
+  },
+  {
+   "code": "CBP",
+   "name": "Chikballapur",
+   "lat": 13.427441,
+   "lon": 77.732143,
+   "osmId": "node/737744285"
+  },
+  {
+   "code": "CDBH",
+   "name": "Chandrabanda",
+   "lat": 16.236544,
+   "lon": 77.444122,
+   "osmId": "node/6063461780"
+  },
+  {
+   "code": "CGHD",
+   "name": "Chinnadagudi Hundi",
+   "lat": 12.084342,
+   "lon": 76.731978,
+   "osmId": "node/1473027345"
+  },
+  {
+   "code": "CGKR",
+   "name": "Chandagiri Koppal",
+   "lat": 12.478164,
+   "lon": 76.713301,
+   "osmId": "node/6080265322"
+  },
+  {
+   "code": "CHKE",
+   "name": "Challakere",
+   "lat": 14.315222,
+   "lon": 76.659932,
+   "osmId": "node/1153239946"
+  },
+  {
+   "code": "CHRG",
+   "name": "Chorgi",
+   "lat": 17.174351,
+   "lon": 75.869968,
+   "osmId": "node/6137195542"
+  },
+  {
+   "code": "CHU",
+   "name": "Champion",
+   "lat": 12.936371,
+   "lon": 78.262941,
+   "osmId": "node/6068892361"
+  },
+  {
+   "code": "CK",
+   "name": "Chikkasuguru",
+   "lat": 16.335928,
+   "lon": 77.344844,
+   "osmId": "node/2970003323"
+  },
+  {
+   "code": "CKBK",
+   "name": "Chikkabenakal",
+   "lat": 15.428604,
+   "lon": 76.442833,
+   "osmId": "node/6138460517"
+  },
+  {
+   "code": "CKR",
+   "name": "Chikodi Road",
+   "lat": 16.371995,
+   "lon": 74.769678,
+   "osmId": "node/1472190894"
+  },
+  {
+   "code": "CKVD",
+   "name": "Chikkandavadi",
+   "lat": 14.134559,
+   "lon": 76.174443,
+   "osmId": "node/4597835200"
+  },
+  {
+   "code": "CLI",
+   "name": "Chalgeri",
+   "lat": 14.561422,
+   "lon": 75.735956,
+   "osmId": "node/6091705496"
+  },
+  {
+   "code": "CLR",
+   "name": "Castle Rock",
+   "lat": 15.398753,
+   "lon": 74.333893,
+   "osmId": "node/1688119769"
+  },
+  {
+   "code": "CMGR",
+   "name": "Chikkamagaluru",
+   "lat": 13.303215,
+   "lon": 75.788716,
+   "osmId": "node/1172868016"
+  },
+  {
+   "code": "CMJ",
+   "name": "Chamarajapuram",
+   "lat": 12.298154,
+   "lon": 76.637862,
+   "osmId": "node/553051322"
+  },
+  {
+   "code": "CMNR",
+   "name": "Chamarajanagar",
+   "lat": 11.934601,
+   "lon": 76.932821,
+   "osmId": "node/707061042"
+  },
+  {
+   "code": "CMY",
+   "name": "Chintamani",
+   "lat": 13.410988,
+   "lon": 78.053996,
+   "osmId": "node/2559419936"
+  },
+  {
+   "code": "CNC",
+   "name": "Chinchli",
+   "lat": 16.565847,
+   "lon": 74.85345,
+   "osmId": "node/6104941484"
+  },
+  {
+   "code": "CNKH",
+   "name": "Chinnakotte",
+   "lat": 12.981227,
+   "lon": 78.226175,
+   "osmId": "node/6068833789"
+  },
+  {
+   "code": "CNPA",
+   "name": "Channarayapatna",
+   "lat": 12.892715,
+   "lon": 76.393964,
+   "osmId": "node/667473810"
+  },
+  {
+   "code": "COL",
+   "name": "Coromandel",
+   "lat": 12.975655,
+   "lon": 78.257805,
+   "osmId": "node/1722769520"
+  },
+  {
+   "code": "CPT",
+   "name": "Channapatna",
+   "lat": 12.659373,
+   "lon": 77.203893,
+   "osmId": "node/1861233135"
+  },
+  {
+   "code": "CRLM",
+   "name": "Carmelaram",
+   "lat": 12.907382,
+   "lon": 77.705835,
+   "osmId": "node/6154791613"
+  },
+  {
+   "code": "CSDR",
+   "name": "Channasandra",
+   "lat": 13.011857,
+   "lon": 77.662814,
+   "osmId": "node/443811552"
+  },
+  {
+   "code": "CT",
+   "name": "Chittapura",
+   "lat": 17.119842,
+   "lon": 77.090534,
+   "osmId": "node/4313065921"
+  },
+  {
+   "code": "CTA",
+   "name": "Chitradurga",
+   "lat": 14.230797,
+   "lon": 76.386473,
+   "osmId": "node/659537076"
+  },
+  {
+   "code": "CTTP",
+   "name": "Chitrapur",
+   "lat": 14.03564,
+   "lon": 74.536043,
+   "osmId": "node/1471692410"
+  },
+  {
+   "code": "DAD",
+   "name": "Devaragudda",
+   "lat": 14.668082,
+   "lon": 75.576149,
+   "osmId": "node/6091738277"
+  },
+  {
+   "code": "DAJ",
+   "name": "Daroji",
+   "lat": 15.226661,
+   "lon": 76.701114,
+   "osmId": "node/1153239903"
+  },
+  {
+   "code": "DBL",
+   "name": "Doddabele",
+   "lat": 13.216696,
+   "lon": 77.351869,
+   "osmId": "node/6087642801"
+  },
+  {
+   "code": "DBS",
+   "name": "Dobaspet",
+   "lat": 13.232839,
+   "lon": 77.248915,
+   "osmId": "node/6087895168"
+  },
+  {
+   "code": "DBU",
+   "name": "Dodballapur",
+   "lat": 13.279688,
+   "lon": 77.550505,
+   "osmId": "node/841763375"
+  },
+  {
+   "code": "DEV",
+   "name": "Devarayi",
+   "lat": 15.453712,
+   "lon": 74.576818,
+   "osmId": "node/6097289548"
+  },
+  {
+   "code": "DHL",
+   "name": "Devanahalli",
+   "lat": 13.247542,
+   "lon": 77.705408,
+   "osmId": "node/1282829831"
+  },
+  {
+   "code": "DJL",
+   "name": "Doddajala",
+   "lat": 13.180671,
+   "lon": 77.640918,
+   "osmId": "node/10124208050"
+  },
+  {
+   "code": "DKN",
+   "name": "Devangonthi",
+   "lat": 12.985148,
+   "lon": 77.831295,
+   "osmId": "node/1110586299"
+  },
+  {
+   "code": "DNU",
+   "name": "Dalasanur",
+   "lat": 13.269092,
+   "lon": 78.169958,
+   "osmId": "node/6072064954"
+  },
+  {
+   "code": "DOGL",
+   "name": "Donigal",
+   "lat": 12.904538,
+   "lon": 75.734809,
+   "osmId": "node/1967082966"
+  },
+  {
+   "code": "DOY",
+   "name": "Dornahalli",
+   "lat": 12.433053,
+   "lon": 76.424893,
+   "osmId": "node/6084067653"
+  },
+  {
+   "code": "DRU",
+   "name": "Kadur Junction",
+   "lat": 13.550251,
+   "lon": 76.008702,
+   "osmId": "node/1172868014"
+  },
+  {
+   "code": "DSHI",
+   "name": "Doddasiddavanhalli",
+   "lat": 14.206862,
+   "lon": 76.478263,
+   "osmId": "node/6122718542"
+  },
+  {
+   "code": "DSVS",
+   "name": "Samudhravalli",
+   "lat": 12.942796,
+   "lon": 76.317432,
+   "osmId": "node/6119316709"
+  },
+  {
+   "code": "DTT",
+   "name": "Dodnatta",
+   "lat": 13.374301,
+   "lon": 78.136482,
+   "osmId": "node/6072056261"
+  },
+  {
+   "code": "DUH",
+   "name": "Dudda",
+   "lat": 13.096074,
+   "lon": 76.209116,
+   "osmId": "node/6085010387"
+  },
+  {
+   "code": "DUR",
+   "name": "Desur",
+   "lat": 15.752854,
+   "lon": 74.498563,
+   "osmId": "node/1852780582"
+  },
+  {
+   "code": "DVG",
+   "name": "Davanagere",
+   "lat": 14.467981,
+   "lon": 75.919568,
+   "osmId": "node/962987530"
+  },
+  {
+   "code": "DWR",
+   "name": "Dharwad",
+   "lat": 15.442435,
+   "lon": 75.001935,
+   "osmId": "node/669015914"
+  },
+  {
+   "code": "FRG",
+   "name": "Farangipete",
+   "lat": 12.875377,
+   "lon": 74.956677,
+   "osmId": "node/6087399898"
+  },
+  {
+   "code": "GBB",
+   "name": "Gubbi railway",
+   "lat": 13.321408,
+   "lon": 76.938757,
+   "osmId": "node/794150286"
+  },
+  {
+   "code": "GBD",
+   "name": "Gauribidanur",
+   "lat": 13.61345,
+   "lon": 77.513135,
+   "osmId": "node/1134275133"
+  },
+  {
+   "code": "GDG",
+   "name": "Gadag Junction",
+   "lat": 15.436474,
+   "lon": 75.642161,
+   "osmId": "node/1462153602"
+  },
+  {
+   "code": "GDGN",
+   "name": "Gaudgaon",
+   "lat": 17.336517,
+   "lon": 76.531327,
+   "osmId": "node/6589655366"
+  },
+  {
+   "code": "GDH",
+   "name": "Gidnahalli",
+   "lat": 13.414326,
+   "lon": 77.808991,
+   "osmId": "node/6072010921"
+  },
+  {
+   "code": "GDI",
+   "name": "Gudageri",
+   "lat": 15.124597,
+   "lon": 75.359553,
+   "osmId": "node/1670052496"
+  },
+  {
+   "code": "GED",
+   "name": "Guledgudda Road",
+   "lat": 16.067305,
+   "lon": 75.694556,
+   "osmId": "node/655264344"
+  },
+  {
+   "code": "GGVT",
+   "name": "Gangavathi Railway station",
+   "lat": 15.442212,
+   "lon": 76.550108,
+   "osmId": "node/13347223046"
+  },
+  {
+   "code": "GHL",
+   "name": "Gollahalli",
+   "lat": 13.145856,
+   "lon": 77.417343,
+   "osmId": "node/6087642665"
+  },
+  {
+   "code": "GIN",
+   "name": "Ginigera",
+   "lat": 15.34798,
+   "lon": 76.247577,
+   "osmId": "node/4011081968"
+  },
+  {
+   "code": "GJT",
+   "name": "Jannagatta",
+   "lat": 13.213672,
+   "lon": 78.136596,
+   "osmId": "node/6072095387"
+  },
+  {
+   "code": "GKK",
+   "name": "Gokak Road",
+   "lat": 16.205374,
+   "lon": 74.739083,
+   "osmId": "node/6103852358"
+  },
+  {
+   "code": "GKV",
+   "name": "Gottihalli",
+   "lat": 13.234756,
+   "lon": 78.142559,
+   "osmId": "node/6072074301"
+  },
+  {
+   "code": "GNB",
+   "name": "Jnanabharati",
+   "lat": 12.935067,
+   "lon": 77.510972,
+   "osmId": "node/5109209996"
+  },
+  {
+   "code": "GNJ",
+   "name": "Gunji",
+   "lat": 15.543751,
+   "lon": 74.480353,
+   "osmId": "node/6099768470"
+  },
+  {
+   "code": "GNR",
+   "name": "Gadiganuru",
+   "lat": 15.218547,
+   "lon": 76.599233,
+   "osmId": "node/1153240249"
+  },
+  {
+   "code": "GOK",
+   "name": "Gokarna Road",
+   "lat": 14.583847,
+   "lon": 74.367729,
+   "osmId": "node/1384317801"
+  },
+  {
+   "code": "GPB",
+   "name": "Ghataprabha",
+   "lat": 16.240983,
+   "lon": 74.75993,
+   "osmId": "node/2428405498"
+  },
+  {
+   "code": "GUR",
+   "name": "Ganagapur Road",
+   "lat": 17.340746,
+   "lon": 76.589503,
+   "osmId": "node/1676721983"
+  },
+  {
+   "code": "HAA",
+   "name": "Harwada",
+   "lat": 14.74039,
+   "lon": 74.259398,
+   "osmId": "node/2548066555"
+  },
+  {
+   "code": "HAH",
+   "name": "Hosa Agrahara",
+   "lat": 12.570121,
+   "lon": 76.361707,
+   "osmId": "node/6084108788"
+  },
+  {
+   "code": "HAS",
+   "name": "Hassan Junction",
+   "lat": 13.003387,
+   "lon": 76.117387,
+   "osmId": "node/3470859796"
+  },
+  {
+   "code": "HBI",
+   "name": "Hagari Bommanahalli",
+   "lat": 15.049997,
+   "lon": 76.20871,
+   "osmId": "node/738268653"
+  },
+  {
+   "code": "HBL",
+   "name": "Hombala",
+   "lat": 15.522344,
+   "lon": 75.577649,
+   "osmId": "node/6132962953"
+  },
+  {
+   "code": "HBS",
+   "name": "Hebsur",
+   "lat": 15.423216,
+   "lon": 75.285918,
+   "osmId": "node/5764377675"
+  },
+  {
+   "code": "HBU",
+   "name": "Halbarga",
+   "lat": 17.974876,
+   "lon": 77.340519,
+   "osmId": "node/6595653641"
+  },
+  {
+   "code": "HDD",
+   "name": "Haddinagundu",
+   "lat": 15.152904,
+   "lon": 76.982794,
+   "osmId": "node/6132543614"
+  },
+  {
+   "code": "HDIH",
+   "name": "Hoodi",
+   "lat": 12.995923,
+   "lon": 77.71928,
+   "osmId": "node/4639561294"
+  },
+  {
+   "code": "HEB",
+   "name": "Hebbal",
+   "lat": 13.042548,
+   "lon": 77.586249,
+   "osmId": "node/2967312447"
+  },
+  {
+   "code": "HEI",
+   "name": "Heggere",
+   "lat": 13.341524,
+   "lon": 77.051143,
+   "osmId": "node/6088420297"
+  },
+  {
+   "code": "HESK",
+   "name": "Hire Shellikeri",
+   "lat": 16.143209,
+   "lon": 75.524938,
+   "osmId": "node/6138405554"
+  },
+  {
+   "code": "HGI",
+   "name": "Hagari",
+   "lat": 15.151097,
+   "lon": 77.055261,
+   "osmId": "node/5764377157"
+  },
+  {
+   "code": "HHD",
+   "name": "Hunsi Hadgil",
+   "lat": 17.352794,
+   "lon": 76.646762,
+   "osmId": "node/6161287664"
+  },
+  {
+   "code": "HHL",
+   "name": "Hirehalli",
+   "lat": 13.280665,
+   "lon": 77.188783,
+   "osmId": "node/389475413"
+  },
+  {
+   "code": "HHT",
+   "name": "Habhanghatta",
+   "lat": 13.227012,
+   "lon": 76.24999,
+   "osmId": "node/3753356903"
+  },
+  {
+   "code": "HIKD",
+   "name": "Hallikhed K.",
+   "lat": 17.671147,
+   "lon": 77.068648,
+   "osmId": "node/6597322155"
+  },
+  {
+   "code": "HISE",
+   "name": "Hirisave",
+   "lat": 12.947167,
+   "lon": 76.574538,
+   "osmId": "node/6119257870"
+  },
+  {
+   "code": "HJL",
+   "name": "Hejjala",
+   "lat": 12.848411,
+   "lon": 77.418328,
+   "osmId": "node/308061696"
+  },
+  {
+   "code": "HLAR",
+   "name": "Hole Alur",
+   "lat": 15.82027,
+   "lon": 75.646746,
+   "osmId": "node/1715653825"
+  },
+  {
+   "code": "HLE",
+   "name": "Heelalige",
+   "lat": 12.813289,
+   "lon": 77.711074,
+   "osmId": "node/695074547"
+  },
+  {
+   "code": "HLK",
+   "name": "Holalkere",
+   "lat": 14.040202,
+   "lon": 76.130905,
+   "osmId": "node/4597665378"
+  },
+  {
+   "code": "HLKH",
+   "name": "Hallikhed",
+   "lat": 17.848246,
+   "lon": 77.277207,
+   "osmId": "node/6597224132"
+  },
+  {
+   "code": "HLKT",
+   "name": "Halakatta",
+   "lat": 17.042732,
+   "lon": 76.991817,
+   "osmId": "node/10267368800"
+  },
+  {
+   "code": "HLN",
+   "name": "Hole Narsipur",
+   "lat": 12.785365,
+   "lon": 76.246634,
+   "osmId": "node/1783231964"
+  },
+  {
+   "code": "HLV",
+   "name": "Haliyuru",
+   "lat": 14.210513,
+   "lon": 76.308866,
+   "osmId": "node/4598015689"
+  },
+  {
+   "code": "HMB",
+   "name": "Harebetta",
+   "lat": 12.823236,
+   "lon": 75.622162,
+   "osmId": "node/6086984618"
+  },
+  {
+   "code": "HMBD",
+   "name": "Humanabad",
+   "lat": 17.771508,
+   "lon": 77.139369,
+   "osmId": "node/1596062941"
+  },
+  {
+   "code": "HNA",
+   "name": "Honnavar",
+   "lat": 14.315901,
+   "lon": 74.432402,
+   "osmId": "node/1384974167"
+  },
+  {
+   "code": "HNH",
+   "name": "Hanumanahalli",
+   "lat": 14.358645,
+   "lon": 75.99846,
+   "osmId": "node/4597860029"
+  },
+  {
+   "code": "HNHL",
+   "name": "Harnahalli",
+   "lat": 14.048524,
+   "lon": 75.459116,
+   "osmId": "node/6121705297"
+  },
+  {
+   "code": "HNK",
+   "name": "Hanakere",
+   "lat": 12.565589,
+   "lon": 76.981021,
+   "osmId": "node/2629037602"
+  },
+  {
+   "code": "HOH",
+   "name": "Honaganahalli",
+   "lat": 16.681021,
+   "lon": 75.731881,
+   "osmId": "node/6134302387"
+  },
+  {
+   "code": "HPA",
+   "name": "Hampapura",
+   "lat": 12.484499,
+   "lon": 76.396963,
+   "osmId": "node/6084101469"
+  },
+  {
+   "code": "HPH",
+   "name": "Hanumapura",
+   "lat": 15.972643,
+   "lon": 77.306724,
+   "osmId": "node/6059786046"
+  },
+  {
+   "code": "HPHI",
+   "name": "Harapanahalli",
+   "lat": 14.773768,
+   "lon": 75.985247,
+   "osmId": "node/2129092124"
+  },
+  {
+   "code": "HPM",
+   "name": "Hampapattana",
+   "lat": 15.111389,
+   "lon": 76.272776,
+   "osmId": "node/6138635654"
+  },
+  {
+   "code": "HPT",
+   "name": "Hosapete Junction",
+   "lat": 15.286536,
+   "lon": 76.386583,
+   "osmId": "node/1561036161"
+  },
+  {
+   "code": "HQR",
+   "name": "Hirenanduru",
+   "lat": 17.258181,
+   "lon": 76.872141,
+   "osmId": "node/2528520392"
+  },
+  {
+   "code": "HRR",
+   "name": "Harihar",
+   "lat": 14.515354,
+   "lon": 75.811048,
+   "osmId": "node/1467829837"
+  },
+  {
+   "code": "HSD",
+   "name": "Hosadurga Road",
+   "lat": 13.862644,
+   "lon": 76.133119,
+   "osmId": "node/4597679145"
+  },
+  {
+   "code": "HSKUR",
+   "name": "Huskuru",
+   "lat": 12.859884,
+   "lon": 77.710456,
+   "osmId": "node/10124208025"
+  },
+  {
+   "code": "HTNL",
+   "name": "Hitnal",
+   "lat": 15.328589,
+   "lon": 76.30873,
+   "osmId": "node/6127767705"
+  },
+  {
+   "code": "HUD",
+   "name": "Hudukula",
+   "lat": 13.071865,
+   "lon": 78.155428,
+   "osmId": "node/6072122870"
+  },
+  {
+   "code": "HUN",
+   "name": "Hunasenahalli",
+   "lat": 13.400327,
+   "lon": 77.946714,
+   "osmId": "node/2559416716"
+  },
+  {
+   "code": "HVL",
+   "name": "Honnavalli Road",
+   "lat": 13.275392,
+   "lon": 76.368309,
+   "osmId": "node/1976851798"
+  },
+  {
+   "code": "HVR",
+   "name": "Haveri",
+   "lat": 14.794753,
+   "lon": 75.411144,
+   "osmId": "node/2554438211"
+  },
+  {
+   "code": "IDJ",
+   "name": "ldalhond",
+   "lat": 15.695968,
+   "lon": 74.523801,
+   "osmId": "node/6103356447"
+  },
+  {
+   "code": "IDR",
+   "name": "Indi Road",
+   "lat": 17.21085,
+   "lon": 75.918869,
+   "osmId": "node/1682747882"
+  },
+  {
+   "code": "IDT",
+   "name": "Sidlagatta",
+   "lat": 13.392071,
+   "lon": 77.864154,
+   "osmId": "node/1404460876"
+  },
+  {
+   "code": "IMR",
+   "name": "Ibrahimpur",
+   "lat": 16.803426,
+   "lon": 75.719951,
+   "osmId": "node/655301225"
+  },
+  {
+   "code": "INJ",
+   "name": "Innanje",
+   "lat": 13.25651,
+   "lon": 74.761499,
+   "osmId": "node/571578391"
+  },
+  {
+   "code": "JAK",
+   "name": "Jakanur",
+   "lat": 15.838287,
+   "lon": 75.649055,
+   "osmId": "node/2262270437"
+  },
+  {
+   "code": "JBGD",
+   "name": "Jabbalagudda",
+   "lat": 15.424501,
+   "lon": 76.368598,
+   "osmId": "node/6138462358"
+  },
+  {
+   "code": "JML",
+   "name": "Jumnal",
+   "lat": 16.721894,
+   "lon": 75.714189,
+   "osmId": "node/6134365903"
+  },
+  {
+   "code": "JOKT",
+   "name": "Jokatte",
+   "lat": 12.959709,
+   "lon": 74.853476,
+   "osmId": "node/6050412687"
+  },
+  {
+   "code": "JRKT",
+   "name": "Jadarama Kunti",
+   "lat": 16.282313,
+   "lon": 75.837433,
+   "osmId": "node/6133936481"
+  },
+  {
+   "code": "JRU",
+   "name": "Chikjajur Junction",
+   "lat": 14.123821,
+   "lon": 76.139893,
+   "osmId": "node/718549537"
+  },
+  {
+   "code": "KAG",
+   "name": "Kodaganuru",
+   "lat": 14.330364,
+   "lon": 76.033604,
+   "osmId": "node/3074998903"
+  },
+  {
+   "code": "KALS",
+   "name": "Kalas",
+   "lat": 15.086484,
+   "lon": 75.390107,
+   "osmId": "node/6093176579"
+  },
+  {
+   "code": "KAWR",
+   "name": "Karwar",
+   "lat": 14.820248,
+   "lon": 74.182591,
+   "osmId": "node/571579771"
+  },
+  {
+   "code": "KBI",
+   "name": "Kambarganvi",
+   "lat": 15.463372,
+   "lon": 74.829412,
+   "osmId": "node/6094508951"
+  },
+  {
+   "code": "KBL",
+   "name": "Koppala",
+   "lat": 15.353869,
+   "lon": 76.144906,
+   "osmId": "node/1153255888"
+  },
+  {
+   "code": "KBPR",
+   "name": "Kabaka Puttur",
+   "lat": 12.768714,
+   "lon": 75.204724,
+   "osmId": "node/707126837"
+  },
+  {
+   "code": "KCLA",
+   "name": "Kenchanalu",
+   "lat": 14.017542,
+   "lon": 75.284872,
+   "osmId": "node/6121748239"
+  },
+  {
+   "code": "KCP",
+   "name": "Kalagapura",
+   "lat": 18.158217,
+   "lon": 77.193701,
+   "osmId": "node/6595646246"
+  },
+  {
+   "code": "KDBA",
+   "name": "Kodimbala",
+   "lat": 12.717946,
+   "lon": 75.480999,
+   "osmId": "node/6087248927"
+  },
+  {
+   "code": "KDGH",
+   "name": "Kodigehalli",
+   "lat": 13.063064,
+   "lon": 77.575836,
+   "osmId": "node/2340693280"
+  },
+  {
+   "code": "KDGI",
+   "name": "Kudgi",
+   "lat": 16.517471,
+   "lon": 75.815758,
+   "osmId": "node/6133986709"
+  },
+  {
+   "code": "KDN",
+   "name": "Kudatini",
+   "lat": 15.214703,
+   "lon": 76.763386,
+   "osmId": "node/6131954117"
+  },
+  {
+   "code": "KDO",
+   "name": "Kadakola",
+   "lat": 12.19082,
+   "lon": 76.663885,
+   "osmId": "node/1365827451"
+  },
+  {
+   "code": "KGH",
+   "name": "Kotegangoor",
+   "lat": 13.976152,
+   "lon": 75.527593,
+   "osmId": "node/6121689073"
+  },
+  {
+   "code": "KGI",
+   "name": "Kengeri",
+   "lat": 12.917657,
+   "lon": 77.483757,
+   "osmId": "node/308062102"
+  },
+  {
+   "code": "KGIH",
+   "name": "Kalgurki",
+   "lat": 16.568775,
+   "lon": 75.78566,
+   "osmId": "node/6134260990"
+  },
+  {
+   "code": "KGVE",
+   "name": "Konagavalli",
+   "lat": 14.026215,
+   "lon": 75.494893,
+   "osmId": "node/6121705298"
+  },
+  {
+   "code": "KGVL",
+   "name": "Kadagaravalli",
+   "lat": 12.838038,
+   "lon": 75.696014,
+   "osmId": "node/707126938"
+  },
+  {
+   "code": "KGW",
+   "name": "Kariganuru",
+   "lat": 15.25151,
+   "lon": 76.433325,
+   "osmId": "node/6129724720"
+  },
+  {
+   "code": "KGX",
+   "name": "Kanginhal",
+   "lat": 15.448401,
+   "lon": 75.719579,
+   "osmId": "node/6123185543"
+  },
+  {
+   "code": "KHLL",
+   "name": "Ketohalli",
+   "lat": 12.758668,
+   "lon": 77.335547,
+   "osmId": "node/6076976933"
+  },
+  {
+   "code": "KHNP",
+   "name": "Khanapur Junction",
+   "lat": 17.9425,
+   "lon": 77.384221,
+   "osmId": "node/710027160"
+  },
+  {
+   "code": "KHST",
+   "name": "Kashanatti",
+   "lat": 15.439419,
+   "lon": 74.783555,
+   "osmId": "node/6096184502"
+  },
+  {
+   "code": "KIAD",
+   "name": "Kempegowda International Airport Halt",
+   "lat": 13.210658,
+   "lon": 77.67616,
+   "osmId": "node/13350989735"
+  },
+  {
+   "code": "KIAT",
+   "name": "Kyatsandra",
+   "lat": 13.31561,
+   "lon": 77.147748,
+   "osmId": "node/389475419"
+  },
+  {
+   "code": "KIGL",
+   "name": "Kunigal",
+   "lat": 13.016644,
+   "lon": 77.011084,
+   "osmId": "node/5005536730"
+  },
+  {
+   "code": "KJDI",
+   "name": "Kajjidoni",
+   "lat": 16.164278,
+   "lon": 75.468026,
+   "osmId": "node/6138418380"
+  },
+  {
+   "code": "KJG",
+   "name": "Karajgi",
+   "lat": 14.851857,
+   "lon": 75.408361,
+   "osmId": "node/6091805284"
+  },
+  {
+   "code": "KJM",
+   "name": "Krishnarajapuram",
+   "lat": 13.000546,
+   "lon": 77.675456,
+   "osmId": "node/13326713957"
+  },
+  {
+   "code": "KJS",
+   "name": "Krishnarajasagara",
+   "lat": 12.401038,
+   "lon": 76.567177,
+   "osmId": "node/992989867"
+  },
+  {
+   "code": "KKMI",
+   "name": "Kerakalamatti",
+   "lat": 16.133997,
+   "lon": 75.589337,
+   "osmId": "node/6138413990"
+  },
+  {
+   "code": "KLBG",
+   "name": "Kalaburagi Junction",
+   "lat": 17.314929,
+   "lon": 76.825633,
+   "osmId": "node/4411002319"
+  },
+  {
+   "code": "KLKH",
+   "name": "Kalladaka",
+   "lat": 12.844375,
+   "lon": 75.060154,
+   "osmId": "node/6087343971"
+  },
+  {
+   "code": "KLM",
+   "name": "Kadlimatti",
+   "lat": 16.236375,
+   "lon": 75.795587,
+   "osmId": "node/6133934758"
+  },
+  {
+   "code": "KLYH",
+   "name": "Kallur Yedahalli",
+   "lat": 12.413333,
+   "lon": 76.507827,
+   "osmId": "node/6084039436"
+  },
+  {
+   "code": "KMNR",
+   "name": "Kamalnagar",
+   "lat": 18.240626,
+   "lon": 77.178724,
+   "osmId": "node/6595637959"
+  },
+  {
+   "code": "KMPU",
+   "name": "Kamalapura",
+   "lat": 17.586846,
+   "lon": 76.97971,
+   "osmId": "node/6597380047"
+  },
+  {
+   "code": "KMSI",
+   "name": "Kumsi",
+   "lat": 14.056713,
+   "lon": 75.40945,
+   "osmId": "node/6121708569"
+  },
+  {
+   "code": "KNAJ",
+   "name": "Kanaji",
+   "lat": 17.913231,
+   "lon": 77.308644,
+   "osmId": "node/6597222422"
+  },
+  {
+   "code": "KNKP",
+   "name": "Kondikoppa",
+   "lat": 15.430977,
+   "lon": 75.472573,
+   "osmId": "node/6123037063"
+  },
+  {
+   "code": "KNLE",
+   "name": "Kanale",
+   "lat": 14.221922,
+   "lon": 74.963383,
+   "osmId": "node/6121846721"
+  },
+  {
+   "code": "KNO",
+   "name": "Kundgol",
+   "lat": 15.258883,
+   "lon": 75.250045,
+   "osmId": "node/654130310"
+  },
+  {
+   "code": "KNP",
+   "name": "Khanapur",
+   "lat": 15.637775,
+   "lon": 74.499704,
+   "osmId": "node/1191359734"
+  },
+  {
+   "code": "KNVH",
+   "name": "Kanive Halli",
+   "lat": 13.326377,
+   "lon": 75.900427,
+   "osmId": "node/2122590437"
+  },
+  {
+   "code": "KNYR",
+   "name": "Kaniuru",
+   "lat": 12.717631,
+   "lon": 75.365965,
+   "osmId": "node/1955015773"
+  },
+  {
+   "code": "KQT",
+   "name": "Kurgunta",
+   "lat": 17.191979,
+   "lon": 77.360341,
+   "osmId": "node/6594497613"
+  },
+  {
+   "code": "KQZ",
+   "name": "Kolar",
+   "lat": 13.123993,
+   "lon": 78.132928,
+   "osmId": "node/706967230"
+  },
+  {
+   "code": "KRKP",
+   "name": "Kyarakoppa",
+   "lat": 15.455126,
+   "lon": 74.955821,
+   "osmId": "node/6094486415"
+  },
+  {
+   "code": "KRNH",
+   "name": "Koranahalli",
+   "lat": 13.697742,
+   "lon": 75.897931,
+   "osmId": "node/6121197245"
+  },
+  {
+   "code": "KRNR",
+   "name": "Krishnaraja Nagar",
+   "lat": 12.444993,
+   "lon": 76.388419,
+   "osmId": "node/1696139855"
+  },
+  {
+   "code": "KRNU",
+   "name": "Konanur",
+   "lat": 12.01432,
+   "lon": 76.83458,
+   "osmId": "node/6083088593"
+  },
+  {
+   "code": "KRVL",
+   "name": "Koravangala",
+   "lat": 13.053377,
+   "lon": 76.160062,
+   "osmId": "node/6084937213"
+  },
+  {
+   "code": "KSAR",
+   "name": "Kudala Sangama",
+   "lat": 16.307599,
+   "lon": 75.892666,
+   "osmId": "node/6133948523"
+  },
+  {
+   "code": "KSM",
+   "name": "Kamasamudram",
+   "lat": 12.880495,
+   "lon": 78.200563,
+   "osmId": "node/5186077698"
+  },
+  {
+   "code": "KT",
+   "name": "Kumta",
+   "lat": 14.43724,
+   "lon": 74.421244,
+   "osmId": "node/1384237103"
+  },
+  {
+   "code": "KTAI",
+   "name": "Kattalli",
+   "lat": 17.725554,
+   "lon": 77.121089,
+   "osmId": "node/6597319980"
+  },
+  {
+   "code": "KTGG",
+   "name": "Karatagi",
+   "lat": 15.619668,
+   "lon": 76.677961,
+   "osmId": "node/9020912154"
+  },
+  {
+   "code": "KTK",
+   "name": "Kyatanakeri Road",
+   "lat": 17.052407,
+   "lon": 75.820534,
+   "osmId": "node/5679128581"
+  },
+  {
+   "code": "KTY",
+   "name": "Kotturu",
+   "lat": 14.825463,
+   "lon": 76.21236,
+   "osmId": "node/738268811"
+  },
+  {
+   "code": "KUD",
+   "name": "Kudachi",
+   "lat": 16.62429,
+   "lon": 74.858412,
+   "osmId": "node/1516238750"
+  },
+  {
+   "code": "KUDA",
+   "name": "Kundapura",
+   "lat": 13.613374,
+   "lon": 74.728686,
+   "osmId": "node/1716178626"
+  },
+  {
+   "code": "KUG",
+   "name": "Kusugal",
+   "lat": 15.372163,
+   "lon": 75.228505,
+   "osmId": "node/5764377544"
+  },
+  {
+   "code": "KUI",
+   "name": "Kulali",
+   "lat": 17.357235,
+   "lon": 76.470473,
+   "osmId": "node/4340278527"
+  },
+  {
+   "code": "KUKT",
+   "name": "Kurukotta",
+   "lat": 17.476013,
+   "lon": 76.895379,
+   "osmId": "node/6597400710"
+  },
+  {
+   "code": "KVE",
+   "name": "Kavalande",
+   "lat": 12.036298,
+   "lon": 76.794581,
+   "osmId": "node/6083081064"
+  },
+  {
+   "code": "KVS",
+   "name": "Kalsur",
+   "lat": 14.887297,
+   "lon": 75.401149,
+   "osmId": "node/6091825109"
+  },
+  {
+   "code": "LD",
+   "name": "Londa Junction",
+   "lat": 15.44895,
+   "lon": 74.495498,
+   "osmId": "node/654115832"
+  },
+  {
+   "code": "LGRE",
+   "name": "Lingeri",
+   "lat": 16.668765,
+   "lon": 77.189729,
+   "osmId": "node/2958815992"
+  },
+  {
+   "code": "LHN",
+   "name": "Lachyan",
+   "lat": 17.278963,
+   "lon": 75.971376,
+   "osmId": "node/6137341047"
+  },
+  {
+   "code": "LKT",
+   "name": "Hulkoti",
+   "lat": 15.433187,
+   "lon": 75.528884,
+   "osmId": "node/1465593508"
+  },
+  {
+   "code": "LKY",
+   "name": "Lakhmapur",
+   "lat": 15.869885,
+   "lon": 75.627215,
+   "osmId": "node/4914851718"
+  },
+  {
+   "code": "LMT",
+   "name": "Almatti",
+   "lat": 16.345046,
+   "lon": 75.901225,
+   "osmId": "node/655290802"
+  },
+  {
+   "code": "LOGH",
+   "name": "Lottegollahalli",
+   "lat": 13.04347,
+   "lon": 77.563084,
+   "osmId": "node/1463736886"
+  },
+  {
+   "code": "LWR",
+   "name": "Alnavar Junction",
+   "lat": 15.424511,
+   "lon": 74.738303,
+   "osmId": "node/654125698"
+  },
+  {
+   "code": "MAD",
+   "name": "Maddur",
+   "lat": 12.604671,
+   "lon": 77.0497,
+   "osmId": "node/653938640"
+  },
+  {
+   "code": "MAGN",
+   "name": "Mahagaon",
+   "lat": 17.512337,
+   "lon": 76.927591,
+   "osmId": "node/6597393217"
+  },
+  {
+   "code": "MAJN",
+   "name": "Mangaluru Junction",
+   "lat": 12.866628,
+   "lon": 74.879231,
+   "osmId": "node/298609247"
+  },
+  {
+   "code": "MANK",
+   "name": "Manki",
+   "lat": 14.174644,
+   "lon": 74.493679,
+   "osmId": "node/2548066556"
+  },
+  {
+   "code": "MAQ",
+   "name": "Mangaluru Central",
+   "lat": 12.863404,
+   "lon": 74.843239,
+   "osmId": "node/2671295574"
+  },
+  {
+   "code": "MDLL",
+   "name": "Muddalinganahalli",
+   "lat": 13.242859,
+   "lon": 77.294432,
+   "osmId": "node/3751576373"
+  },
+  {
+   "code": "MGD",
+   "name": "Mugad",
+   "lat": 15.447667,
+   "lon": 74.904936,
+   "osmId": "node/3879960394"
+  },
+  {
+   "code": "MGF",
+   "name": "Mandagere",
+   "lat": 12.729529,
+   "lon": 76.379007,
+   "osmId": "node/5277139349"
+  },
+  {
+   "code": "MGL",
+   "name": "Mugalolli",
+   "lat": 16.22435,
+   "lon": 75.752579,
+   "osmId": "way/1025978782"
+  },
+  {
+   "code": "MKL",
+   "name": "Makalidurga",
+   "lat": 13.409934,
+   "lon": 77.50982,
+   "osmId": "node/5303386569"
+  },
+  {
+   "code": "MKM",
+   "name": "Marikuppam",
+   "lat": 12.918795,
+   "lon": 78.263739,
+   "osmId": "node/4133754822"
+  },
+  {
+   "code": "MLO",
+   "name": "Malur",
+   "lat": 12.992853,
+   "lon": 77.938737,
+   "osmId": "node/2486823395"
+  },
+  {
+   "code": "MLP",
+   "name": "Mallapur",
+   "lat": 15.672561,
+   "lon": 75.61074,
+   "osmId": "node/4450926674"
+  },
+  {
+   "code": "MLSA",
+   "name": "Mallasandra",
+   "lat": 13.334971,
+   "lon": 77.015439,
+   "osmId": "node/853082530"
+  },
+  {
+   "code": "MMI",
+   "name": "Mariyammanahalli",
+   "lat": 15.157896,
+   "lon": 76.360245,
+   "osmId": "node/738268983"
+  },
+  {
+   "code": "MNKH",
+   "name": "Maranayakanahalli",
+   "lat": 12.718609,
+   "lon": 77.76398,
+   "osmId": "node/11834900271"
+  },
+  {
+   "code": "MNL",
+   "name": "Minchnal",
+   "lat": 16.970561,
+   "lon": 75.821783,
+   "osmId": "node/672726408"
+  },
+  {
+   "code": "MOMU",
+   "name": "Molakalmuru",
+   "lat": 14.709643,
+   "lon": 76.746219,
+   "osmId": "node/1153239740"
+  },
+  {
+   "code": "MQR",
+   "name": "Malkhaid Road",
+   "lat": 17.14741,
+   "lon": 77.174304,
+   "osmId": "node/1491693696"
+  },
+  {
+   "code": "MR",
+   "name": "Martur",
+   "lat": 17.199742,
+   "lon": 76.902216,
+   "osmId": "node/6161513563"
+  },
+  {
+   "code": "MRB",
+   "name": "Munirabad",
+   "lat": 15.308008,
+   "lon": 76.336383,
+   "osmId": "node/707132579"
+  },
+  {
+   "code": "MRC",
+   "name": "Marichethal",
+   "lat": 16.109887,
+   "lon": 77.309439,
+   "osmId": "node/2973023223"
+  },
+  {
+   "code": "MRDW",
+   "name": "Murdeshwar",
+   "lat": 14.100819,
+   "lon": 74.505423,
+   "osmId": "node/1888282487"
+  },
+  {
+   "code": "MRJN",
+   "name": "Mirjan",
+   "lat": 14.500378,
+   "lon": 74.424779,
+   "osmId": "node/10251526302"
+  },
+  {
+   "code": "MRLA",
+   "name": "Mariyalaganavadi",
+   "lat": 11.954505,
+   "lon": 76.900445,
+   "osmId": "node/6083107840"
+  },
+  {
+   "code": "MSS",
+   "name": "Masarahalli",
+   "lat": 13.810586,
+   "lon": 75.730578,
+   "osmId": "node/1966508764"
+  },
+  {
+   "code": "MTU",
+   "name": "Matmari",
+   "lat": 16.046499,
+   "lon": 77.302479,
+   "osmId": "node/2973023222"
+  },
+  {
+   "code": "MUDI",
+   "name": "Mududi",
+   "lat": 13.202076,
+   "lon": 76.27472,
+   "osmId": "node/6085100772"
+  },
+  {
+   "code": "MUGI",
+   "name": "Margutti",
+   "lat": 17.639832,
+   "lon": 77.057555,
+   "osmId": "node/6597346680"
+  },
+  {
+   "code": "MULK",
+   "name": "Mulki",
+   "lat": 13.068958,
+   "lon": 74.805273,
+   "osmId": "node/298611723"
+  },
+  {
+   "code": "MVC",
+   "name": "Mavinakere",
+   "lat": 12.84475,
+   "lon": 76.173686,
+   "osmId": "node/6084408423"
+  },
+  {
+   "code": "MVD",
+   "name": "Mulvad",
+   "lat": 16.620334,
+   "lon": 75.746992,
+   "osmId": "node/6134274637"
+  },
+  {
+   "code": "MVY",
+   "name": "Malavi",
+   "lat": 15.004034,
+   "lon": 76.20288,
+   "osmId": "node/6138660463"
+  },
+  {
+   "code": "MWM",
+   "name": "Malleswaram",
+   "lat": 13.000631,
+   "lon": 77.563476,
+   "osmId": "node/4108417932"
+  },
+  {
+   "code": "MYA",
+   "name": "Mandya",
+   "lat": 12.528885,
+   "lon": 76.8967,
+   "osmId": "node/3500758393"
+  },
+  {
+   "code": "MYK",
+   "name": "Mayakonda",
+   "lat": 14.277984,
+   "lon": 76.087015,
+   "osmId": "node/1688172817"
+  },
+  {
+   "code": "MYS",
+   "name": "Mysuru Junction",
+   "lat": 12.316829,
+   "lon": 76.645529,
+   "osmId": "node/312565912",
+   "codeSource": "https://en.wikipedia.org/wiki/Mysore_Junction_railway_station"
+  },
+  {
+   "code": "MZV",
+   "name": "Maralahalli",
+   "lat": 12.986949,
+   "lon": 78.124357,
+   "osmId": "node/6065355651"
+  },
+  {
+   "code": "NADI",
+   "name": "Nawadgi",
+   "lat": 17.547127,
+   "lon": 76.959157,
+   "osmId": "node/6597315672"
+  },
+  {
+   "code": "NAG",
+   "name": "Nagargali",
+   "lat": 15.42345,
+   "lon": 74.621309,
+   "osmId": "node/6097245031"
+  },
+  {
+   "code": "NAND",
+   "name": "Nandikoor",
+   "lat": 13.132638,
+   "lon": 74.806045,
+   "osmId": "node/2454214993"
+  },
+  {
+   "code": "NANH",
+   "name": "Navanagar",
+   "lat": 16.153422,
+   "lon": 75.689032,
+   "osmId": "node/6133162342"
+  },
+  {
+   "code": "NBL",
+   "name": "Nimbal",
+   "lat": 17.118795,
+   "lon": 75.860337,
+   "osmId": "node/701554068"
+  },
+  {
+   "code": "NBU",
+   "name": "Narasambudhi",
+   "lat": 12.075519,
+   "lon": 76.749502,
+   "osmId": "node/1473027333"
+  },
+  {
+   "code": "NDV",
+   "name": "Nidvanda",
+   "lat": 13.2447,
+   "lon": 77.272946,
+   "osmId": "node/6087642829"
+  },
+  {
+   "code": "NDY",
+   "name": "Nandi",
+   "lat": 13.377102,
+   "lon": 77.710801,
+   "osmId": "node/6071994601"
+  },
+  {
+   "code": "NEHL",
+   "name": "Netranahalli",
+   "lat": 14.645845,
+   "lon": 76.700508,
+   "osmId": "node/6122749721"
+  },
+  {
+   "code": "NGNH",
+   "name": "Nandagaon",
+   "lat": 17.785185,
+   "lon": 77.185632,
+   "osmId": "node/6597333823"
+  },
+  {
+   "code": "NGR",
+   "name": "Annigeri",
+   "lat": 15.432432,
+   "lon": 75.433539,
+   "osmId": "node/5764378051"
+  },
+  {
+   "code": "NHY",
+   "name": "Naganahalli",
+   "lat": 12.378628,
+   "lon": 76.650774,
+   "osmId": "node/993005071"
+  },
+  {
+   "code": "NLNR",
+   "name": "Nulenuru",
+   "lat": 14.004956,
+   "lon": 76.124768,
+   "osmId": "node/4597671360"
+  },
+  {
+   "code": "NMGA",
+   "name": "Nelamangala",
+   "lat": 13.112187,
+   "lon": 77.392503,
+   "osmId": "node/2034603706"
+  },
+  {
+   "code": "NRF",
+   "name": "Neralakatte",
+   "lat": 12.816757,
+   "lon": 75.127256,
+   "osmId": "node/1984385300"
+  },
+  {
+   "code": "NRJ",
+   "name": "Narimogaru",
+   "lat": 12.745736,
+   "lon": 75.292117,
+   "osmId": "node/6087290399"
+  },
+  {
+   "code": "NTR",
+   "name": "Nittur",
+   "lat": 13.302648,
+   "lon": 76.855952,
+   "osmId": "node/1818651789"
+  },
+  {
+   "code": "NTW",
+   "name": "Nanjangud Town",
+   "lat": 12.122068,
+   "lon": 76.684341,
+   "osmId": "node/687777818"
+  },
+  {
+   "code": "NVD",
+   "name": "Navalgund Road",
+   "lat": 15.435078,
+   "lon": 75.354715,
+   "osmId": "node/6122954434"
+  },
+  {
+   "code": "NVF",
+   "name": "Nagavangala",
+   "lat": 13.664585,
+   "lon": 75.991592,
+   "osmId": "node/4597696823"
+  },
+  {
+   "code": "NVU",
+   "name": "Navalur",
+   "lat": 15.41521,
+   "lon": 75.056204,
+   "osmId": "node/1377759098"
+  },
+  {
+   "code": "NW",
+   "name": "Nalwar",
+   "lat": 16.936031,
+   "lon": 77.019442,
+   "osmId": "node/1074968410"
+  },
+  {
+   "code": "NXH",
+   "name": "Nidaghatta",
+   "lat": 12.62576,
+   "lon": 77.089461,
+   "osmId": "node/6077103206"
+  },
+  {
+   "code": "NYH",
+   "name": "Nayandahalli",
+   "lat": 12.941325,
+   "lon": 77.521212,
+   "osmId": "node/308062851"
+  },
+  {
+   "code": "OGM",
+   "name": "Oorgaum",
+   "lat": 12.954284,
+   "lon": 78.259983,
+   "osmId": "node/1844248845"
+  },
+  {
+   "code": "ORH",
+   "name": "Oddarahalli",
+   "lat": 13.346059,
+   "lon": 77.541119,
+   "osmId": "node/5303386568"
+  },
+  {
+   "code": "PADL",
+   "name": "Padil",
+   "lat": 12.875297,
+   "lon": 74.894361,
+   "osmId": "node/300062249"
+  },
+  {
+   "code": "PANP",
+   "name": "Pandavapura",
+   "lat": 12.463777,
+   "lon": 76.681066,
+   "osmId": "node/1489649987"
+  },
+  {
+   "code": "PCH",
+   "name": "Pachhapur",
+   "lat": 16.080448,
+   "lon": 74.670934,
+   "osmId": "node/5358242144"
+  },
+  {
+   "code": "PDD",
+   "name": "Padubidri",
+   "lat": 13.196989,
+   "lon": 74.768065,
+   "osmId": "node/571578291"
+  },
+  {
+   "code": "PDNR",
+   "name": "Padanura",
+   "lat": 17.321848,
+   "lon": 75.984304,
+   "osmId": "node/6137357104"
+  },
+  {
+   "code": "PKL",
+   "name": "Papinayaknahalli",
+   "lat": 15.235682,
+   "lon": 76.490783,
+   "osmId": "node/4028158801"
+  },
+  {
+   "code": "PLHL",
+   "name": "Palahalli",
+   "lat": 12.406861,
+   "lon": 76.658564,
+   "osmId": "node/6080347847"
+  },
+  {
+   "code": "PRKH",
+   "name": "Parakanahatti",
+   "lat": 16.138841,
+   "lon": 74.694655,
+   "osmId": "node/6103838860"
+  },
+  {
+   "code": "RBG",
+   "name": "Raybag",
+   "lat": 16.483705,
+   "lon": 74.807112,
+   "osmId": "node/1516239415"
+  },
+  {
+   "code": "RC",
+   "name": "Raichur",
+   "lat": 16.192803,
+   "lon": 77.338997,
+   "osmId": "node/1126574956"
+  },
+  {
+   "code": "RDI",
+   "name": "Kardi",
+   "lat": 13.267193,
+   "lon": 76.572312,
+   "osmId": "node/1814580873"
+  },
+  {
+   "code": "RGI",
+   "name": "Ramagiri",
+   "lat": 13.948274,
+   "lon": 76.125491,
+   "osmId": "node/4597673369"
+  },
+  {
+   "code": "RLP",
+   "name": "Harlapur",
+   "lat": 15.43556,
+   "lon": 75.799868,
+   "osmId": "node/5679106393"
+  },
+  {
+   "code": "RMGD",
+   "name": "Ramgad",
+   "lat": 15.117059,
+   "lon": 76.449233,
+   "osmId": "node/6138804131"
+  },
+  {
+   "code": "RMGM",
+   "name": "Ramanagaram",
+   "lat": 12.721048,
+   "lon": 77.283738,
+   "osmId": "node/617332502"
+  },
+  {
+   "code": "RNJP",
+   "name": "Ranjitpura",
+   "lat": 15.056111,
+   "lon": 76.599554,
+   "osmId": "node/738269167"
+  },
+  {
+   "code": "RNN",
+   "name": "Rajanukunte",
+   "lat": 13.17463,
+   "lon": 77.565592,
+   "osmId": "node/5303386567"
+  },
+  {
+   "code": "RNR",
+   "name": "Ranebennuru",
+   "lat": 14.625888,
+   "lon": 75.635725,
+   "osmId": "node/654132674"
+  },
+  {
+   "code": "RRB",
+   "name": "Birur Junction",
+   "lat": 13.593229,
+   "lon": 75.973015,
+   "osmId": "node/1923477242"
+  },
+  {
+   "code": "S",
+   "name": "Shrirangapattana",
+   "lat": 12.424144,
+   "lon": 76.677873,
+   "osmId": "node/666623896"
+  },
+  {
+   "code": "SADP",
+   "name": "Saidapur",
+   "lat": 16.570787,
+   "lon": 77.250003,
+   "osmId": "node/2958863878"
+  },
+  {
+   "code": "SBC",
+   "name": "Krantivira Sangolli Rayanna (Bengaluru)",
+   "lat": 12.978174,
+   "lon": 77.56956,
+   "osmId": "node/2669084978"
+  },
+  {
+   "code": "SBGA",
+   "name": "Shravanabelagola",
+   "lat": 12.871393,
+   "lon": 76.465669,
+   "osmId": "node/3470837085"
+  },
+  {
+   "code": "SBH",
+   "name": "Sulebhavi",
+   "lat": 15.911222,
+   "lon": 74.638029,
+   "osmId": "node/5358242178"
+  },
+  {
+   "code": "SBHR",
+   "name": "Subrahmanya Road",
+   "lat": 12.731503,
+   "lon": 75.557978,
+   "osmId": "way/222073597"
+  },
+  {
+   "code": "SDB",
+   "name": "Shahabad",
+   "lat": 17.121932,
+   "lon": 76.943397,
+   "osmId": "node/687187467"
+  },
+  {
+   "code": "SDVL",
+   "name": "Soladevanahalli",
+   "lat": 13.091352,
+   "lon": 77.489828,
+   "osmId": "node/2289153675"
+  },
+  {
+   "code": "SED",
+   "name": "Shedbal",
+   "lat": 16.720261,
+   "lon": 74.752463,
+   "osmId": "node/6105020726"
+  },
+  {
+   "code": "SEM",
+   "name": "Sedam",
+   "lat": 17.181207,
+   "lon": 77.285694,
+   "osmId": "node/795583901"
+  },
+  {
+   "code": "SEN",
+   "name": "Senapura",
+   "lat": 13.717875,
+   "lon": 74.684472,
+   "osmId": "node/2548066558"
+  },
+  {
+   "code": "SGDV",
+   "name": "Somaguddu",
+   "lat": 14.280701,
+   "lon": 76.624546,
+   "osmId": "node/6122722111"
+  },
+  {
+   "code": "SHMI",
+   "name": "Shiroor",
+   "lat": 13.930972,
+   "lon": 74.594247,
+   "osmId": "node/5239591121"
+  },
+  {
+   "code": "SHV",
+   "name": "Shivani",
+   "lat": 13.811739,
+   "lon": 76.058702,
+   "osmId": "node/4597684205"
+  },
+  {
+   "code": "SHYP",
+   "name": "Sakharayapatna",
+   "lat": 13.429961,
+   "lon": 75.927854,
+   "osmId": "node/2122590354"
+  },
+  {
+   "code": "SIDG",
+   "name": "Siddapur",
+   "lat": 15.522362,
+   "lon": 76.639637,
+   "osmId": "node/13340594033"
+  },
+  {
+   "code": "SIDP",
+   "name": "Siddapura",
+   "lat": 12.988814,
+   "lon": 76.91548,
+   "osmId": "node/6119025349"
+  },
+  {
+   "code": "SIGA",
+   "name": "Shantigrama",
+   "lat": 12.984617,
+   "lon": 76.20546,
+   "osmId": "node/3220285971"
+  },
+  {
+   "code": "SII",
+   "name": "Sitimani",
+   "lat": 16.319625,
+   "lon": 75.866114,
+   "osmId": "node/6133939734"
+  },
+  {
+   "code": "SIKI",
+   "name": "Sulikeri",
+   "lat": 16.122787,
+   "lon": 75.65086,
+   "osmId": "node/6138406958"
+  },
+  {
+   "code": "SJPM",
+   "name": "Sujatapuram",
+   "lat": 12.136039,
+   "lon": 76.674303,
+   "osmId": "node/6082886496"
+  },
+  {
+   "code": "SKLR",
+   "name": "Sakleshpur",
+   "lat": 12.945377,
+   "lon": 75.778951,
+   "osmId": "node/1672987435"
+  },
+  {
+   "code": "SL",
+   "name": "Surathkal",
+   "lat": 12.990243,
+   "lon": 74.805352,
+   "osmId": "node/1692785682"
+  },
+  {
+   "code": "SLU",
+   "name": "Sasalu",
+   "lat": 14.211108,
+   "lon": 76.115021,
+   "osmId": "node/3075002340"
+  },
+  {
+   "code": "SME",
+   "name": "Shivamogga - SME",
+   "lat": 13.92804,
+   "lon": 75.592533,
+   "osmId": "node/6121615692"
+  },
+  {
+   "code": "SMET",
+   "name": "Shimoga Town",
+   "lat": 13.943762,
+   "lon": 75.583578,
+   "osmId": "node/10252989482"
+  },
+  {
+   "code": "SMKT",
+   "name": "Somanakatti",
+   "lat": 15.764344,
+   "lon": 75.631235,
+   "osmId": "node/6133069401"
+  },
+  {
+   "code": "SMLI",
+   "name": "Swamihalli",
+   "lat": 14.97615,
+   "lon": 76.608903,
+   "osmId": "node/738274019"
+  },
+  {
+   "code": "SMVB",
+   "name": "Sir M Visvesvaraya Terminal",
+   "lat": 12.999655,
+   "lon": 77.641154,
+   "osmId": "node/12514337068"
+  },
+  {
+   "code": "SMWA",
+   "name": "Someshwara",
+   "lat": 13.560346,
+   "lon": 77.512719,
+   "osmId": "node/5303386570"
+  },
+  {
+   "code": "SNH",
+   "name": "Saunshi",
+   "lat": 15.203351,
+   "lon": 75.300579,
+   "osmId": "node/6093198365"
+  },
+  {
+   "code": "SNNR",
+   "name": "Sindhanur",
+   "lat": 15.756644,
+   "lon": 76.768416,
+   "osmId": "node/13363043471"
+  },
+  {
+   "code": "SOLR",
+   "name": "Solur",
+   "lat": 13.069802,
+   "lon": 77.258671,
+   "osmId": "node/4757898320"
+  },
+  {
+   "code": "SOQ",
+   "name": "Sompur Road",
+   "lat": 15.421714,
+   "lon": 75.873658,
+   "osmId": "node/6123256413"
+  },
+  {
+   "code": "SPGR",
+   "name": "Sampige Road",
+   "lat": 13.270964,
+   "lon": 76.762269,
+   "osmId": "node/1818646444"
+  },
+  {
+   "code": "SPHL",
+   "name": "Shampurahalli",
+   "lat": 16.875632,
+   "lon": 77.033303,
+   "osmId": "node/3057754704"
+  },
+  {
+   "code": "SPV",
+   "name": "Sivapur",
+   "lat": 13.670466,
+   "lon": 75.928351,
+   "osmId": "node/3191826727"
+  },
+  {
+   "code": "SRF",
+   "name": "Sagar Jambagaru",
+   "lat": 14.170083,
+   "lon": 75.023513,
+   "osmId": "node/1368272943"
+  },
+  {
+   "code": "SRNM",
+   "name": "Sriramanagar Grama Halt",
+   "lat": 15.493575,
+   "lon": 76.617505,
+   "osmId": "node/13340647403"
+  },
+  {
+   "code": "SRVN",
+   "name": "Sravanur",
+   "lat": 12.723746,
+   "lon": 76.301513,
+   "osmId": "node/6084375483"
+  },
+  {
+   "code": "SSNH",
+   "name": "Sree Sharada Nagar",
+   "lat": 13.261157,
+   "lon": 76.455109,
+   "osmId": "node/1465587039"
+  },
+  {
+   "code": "STE",
+   "name": "Sagarakatte",
+   "lat": 12.423095,
+   "lon": 76.478574,
+   "osmId": "node/5704202636"
+  },
+  {
+   "code": "SUBL",
+   "name": "Hubballi South",
+   "lat": 15.333222,
+   "lon": 75.175436,
+   "osmId": "node/6093245291"
+  },
+  {
+   "code": "SUH",
+   "name": "Sulehalli",
+   "lat": 17.080078,
+   "lon": 77.05264,
+   "osmId": "node/6594379690"
+  },
+  {
+   "code": "SUL",
+   "name": "Suldhal",
+   "lat": 16.002318,
+   "lon": 74.678109,
+   "osmId": "node/6103822994"
+  },
+  {
+   "code": "SVG",
+   "name": "Savalgi",
+   "lat": 17.339691,
+   "lon": 76.710754,
+   "osmId": "node/6161287654"
+  },
+  {
+   "code": "SVGL",
+   "name": "Shrivagilu",
+   "lat": 12.799187,
+   "lon": 75.594944,
+   "osmId": "node/6087107031"
+  },
+  {
+   "code": "SVHE",
+   "name": "Sisvinhalli",
+   "lat": 15.429886,
+   "lon": 75.319601,
+   "osmId": "node/1757235773"
+  },
+  {
+   "code": "SVNR",
+   "name": "Savanur",
+   "lat": 14.963048,
+   "lon": 75.407017,
+   "osmId": "node/6093141810"
+  },
+  {
+   "code": "SVS",
+   "name": "Srinivasapura",
+   "lat": 13.328834,
+   "lon": 78.206707,
+   "osmId": "node/4142582908"
+  },
+  {
+   "code": "SVTN",
+   "name": "Shivathan",
+   "lat": 15.478081,
+   "lon": 74.522768,
+   "osmId": "node/6097343534"
+  },
+  {
+   "code": "SXB",
+   "name": "Sambre",
+   "lat": 15.884318,
+   "lon": 74.577209,
+   "osmId": "node/654140148"
+  },
+  {
+   "code": "SXH",
+   "name": "Shingatgere",
+   "lat": 15.348768,
+   "lon": 74.660588,
+   "osmId": "node/6139282660"
+  },
+  {
+   "code": "TALKL",
+   "name": "Talakal",
+   "lat": 15.398545,
+   "lon": 75.986976,
+   "osmId": "node/10693510545"
+  },
+  {
+   "code": "TASA",
+   "name": "Tippasandra",
+   "lat": 13.055151,
+   "lon": 77.118758,
+   "osmId": "node/6118957143"
+  },
+  {
+   "code": "TBDM",
+   "name": "Tunga Bhadra Dam",
+   "lat": 15.263022,
+   "lon": 76.354187,
+   "osmId": "node/3165126694"
+  },
+  {
+   "code": "TCL",
+   "name": "Tyakal",
+   "lat": 12.984583,
+   "lon": 78.071113,
+   "osmId": "node/5760183640"
+  },
+  {
+   "code": "TDV",
+   "name": "Thondebhavi",
+   "lat": 13.503993,
+   "lon": 77.514955,
+   "osmId": "node/389475236"
+  },
+  {
+   "code": "TGDE",
+   "name": "Thangundi",
+   "lat": 16.803401,
+   "lon": 77.06795,
+   "osmId": "node/3057101107"
+  },
+  {
+   "code": "TGT",
+   "name": "Tinai Ghat",
+   "lat": 15.448667,
+   "lon": 74.402411,
+   "osmId": "node/4029017821"
+  },
+  {
+   "code": "THKU",
+   "name": "Talaku",
+   "lat": 14.446083,
+   "lon": 76.675072,
+   "osmId": "node/1153239543"
+  },
+  {
+   "code": "THN",
+   "name": "Tolahunse",
+   "lat": 14.399643,
+   "lon": 75.964527,
+   "osmId": "node/6090181905"
+  },
+  {
+   "code": "TJSP",
+   "name": "Taj Sultanpur",
+   "lat": 17.382103,
+   "lon": 76.830725,
+   "osmId": "node/6161287645"
+  },
+  {
+   "code": "TK",
+   "name": "Tumakuru",
+   "lat": 13.333899,
+   "lon": 77.101958,
+   "osmId": "node/853131485"
+  },
+  {
+   "code": "TKE",
+   "name": "Tarikere Junction",
+   "lat": 13.711514,
+   "lon": 75.812598,
+   "osmId": "node/3191826728"
+  },
+  {
+   "code": "TKOT",
+   "name": "Tokkuttu",
+   "lat": 12.822275,
+   "lon": 74.857507,
+   "osmId": "node/5999842084"
+  },
+  {
+   "code": "TLGI",
+   "name": "Teligi",
+   "lat": 14.65944,
+   "lon": 75.897744,
+   "osmId": "node/6138741479"
+  },
+  {
+   "code": "TLGP",
+   "name": "Talaguppa",
+   "lat": 14.21431,
+   "lon": 74.914409,
+   "osmId": "node/707255911"
+  },
+  {
+   "code": "TLS",
+   "name": "Betta Halasuru",
+   "lat": 13.166121,
+   "lon": 77.604317,
+   "osmId": "node/6071096284"
+  },
+  {
+   "code": "TNGL",
+   "name": "Toranagallu Junction",
+   "lat": 15.202933,
+   "lon": 76.663142,
+   "osmId": "node/1153239943"
+  },
+  {
+   "code": "TOK",
+   "name": "Thokur",
+   "lat": 12.963423,
+   "lon": 74.829541,
+   "osmId": "node/2591684348"
+  },
+  {
+   "code": "TTR",
+   "name": "Tiptur",
+   "lat": 13.255759,
+   "lon": 76.475633,
+   "osmId": "node/1636610854"
+  },
+  {
+   "code": "TVG",
+   "name": "Tavargatti",
+   "lat": 15.414573,
+   "lon": 74.662523,
+   "osmId": "node/6097226671"
+  },
+  {
+   "code": "TXM",
+   "name": "Tandavapura",
+   "lat": 12.169453,
+   "lon": 76.677544,
+   "osmId": "node/6082860040"
+  },
+  {
+   "code": "UBL",
+   "name": "Hubballi",
+   "lat": 15.350058,
+   "lon": 75.149476,
+   "osmId": "node/13363029918"
+  },
+  {
+   "code": "UD",
+   "name": "Udupi",
+   "lat": 13.336099,
+   "lon": 74.770758,
+   "osmId": "node/1422424831"
+  },
+  {
+   "code": "UGR",
+   "name": "Ugar Khurd",
+   "lat": 16.67012,
+   "lon": 74.821032,
+   "osmId": "node/1516238751"
+  },
+  {
+   "code": "ULL",
+   "name": "Ullal",
+   "lat": 12.792366,
+   "lon": 74.854886,
+   "osmId": "node/4569877375"
+  },
+  {
+   "code": "UNK",
+   "name": "Unkal",
+   "lat": 15.37413,
+   "lon": 75.124672,
+   "osmId": "node/6094397704"
+  },
+  {
+   "code": "VC",
+   "name": "Vyasa Colony Junction",
+   "lat": 15.186893,
+   "lon": 76.383508,
+   "osmId": "node/6138518116"
+  },
+  {
+   "code": "VNR",
+   "name": "Devanur",
+   "lat": 13.435439,
+   "lon": 76.092893,
+   "osmId": "node/6089324161"
+  },
+  {
+   "code": "VP",
+   "name": "Virapur",
+   "lat": 15.158866,
+   "lon": 77.13201,
+   "osmId": "node/5764377154"
+  },
+  {
+   "code": "VRDP",
+   "name": "Varadapura",
+   "lat": 12.922451,
+   "lon": 78.191444,
+   "osmId": "node/6064361419"
+  },
+  {
+   "code": "VTE",
+   "name": "Venkatagirikote",
+   "lat": 13.326192,
+   "lon": 77.731249,
+   "osmId": "node/6071974375"
+  },
+  {
+   "code": "VWA",
+   "name": "Viduraswattha",
+   "lat": 13.666552,
+   "lon": 77.509475,
+   "osmId": "node/6069958871"
+  },
+  {
+   "code": "VYS",
+   "name": "Vyasanakere",
+   "lat": 15.231187,
+   "lon": 76.36442,
+   "osmId": "node/6138507541"
+  },
+  {
+   "code": "WADI",
+   "name": "Wadi Junction",
+   "lat": 17.052295,
+   "lon": 76.991895,
+   "osmId": "node/4761087279"
+  },
+  {
+   "code": "WDL",
+   "name": "Wandal",
+   "lat": 16.416463,
+   "lon": 75.864541,
+   "osmId": "node/6133966029"
+  },
+  {
+   "code": "WFD",
+   "name": "Whitefield",
+   "lat": 12.9964,
+   "lon": 77.761423,
+   "osmId": "node/1177705836"
+  },
+  {
+   "code": "Y",
+   "name": "Yeliyur",
+   "lat": 12.509896,
+   "lon": 76.828661,
+   "osmId": "node/4316145885"
+  },
+  {
+   "code": "YDK",
+   "name": "Yedekumeri",
+   "lat": 12.823225,
+   "lon": 75.664001,
+   "osmId": "node/707127170"
+  },
+  {
+   "code": "YDLP",
+   "name": "Yadalapur",
+   "lat": 16.384916,
+   "lon": 77.327456,
+   "osmId": "node/2970003324"
+  },
+  {
+   "code": "YDM",
+   "name": "Yedamangala",
+   "lat": 12.71499,
+   "lon": 75.443291,
+   "osmId": "node/6087271292"
+  },
+  {
+   "code": "YG",
+   "name": "Yadgir",
+   "lat": 16.744649,
+   "lon": 77.129702,
+   "osmId": "node/687187136"
+  },
+  {
+   "code": "YGA",
+   "name": "Yaragoppa",
+   "lat": 15.905974,
+   "lon": 75.648688,
+   "osmId": "node/6133105238"
+  },
+  {
+   "code": "YLG",
+   "name": "Yalavigi",
+   "lat": 15.033888,
+   "lon": 75.410984,
+   "osmId": "node/6093174608"
+  },
+  {
+   "code": "YNK",
+   "name": "Yelahanka Junction",
+   "lat": 13.105007,
+   "lon": 77.591894,
+   "osmId": "node/338274462"
+  },
+  {
+   "code": "YPR",
+   "name": "Yesvantpur Junction",
+   "lat": 13.023773,
+   "lon": 77.55077,
+   "osmId": "node/2967308931"
+  },
+  {
+   "code": "YS",
+   "name": "Yermaras",
+   "lat": 16.272695,
+   "lon": 77.347257,
+   "osmId": "node/2101360284"
+  },
+  {
+   "code": "YTG",
+   "name": "Yeshwanthnagar",
+   "lat": 15.03931,
+   "lon": 76.502708,
+   "osmId": "node/738274431"
+  },
+  {
+   "code": "YY",
+   "name": "Yediyur",
+   "lat": 12.979001,
+   "lon": 76.86386,
+   "osmId": "node/1722803892"
+  }
+ ]
+}
