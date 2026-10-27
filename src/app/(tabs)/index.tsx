@@ -61,9 +61,12 @@ export default function HomeScreen() {
         <View style={wide ? styles.colMain : styles.stack}>
         <View style={styles.header}>
           <Logo size={46} tagline />
-          <TextAction label={status === 'locating' ? tr('Finding you…') : tr('Use my location')} onPress={useMyLocation} tone="accent" />
         </View>
         <Text style={[styles.lead, { color: t.ink.muted }]}>{tr('Where do you want to go today?')}</Text>
+        {/* Left-aligned, not in the top-right corner: foldables (iPhone Duo) float the status pill there. */}
+        <View style={styles.locate}>
+          <TextAction label={status === 'locating' ? tr('Finding you…') : tr('Use my location')} onPress={useMyLocation} tone="accent" />
+        </View>
 
         {status !== 'idle' && status !== 'locating' && status !== 'ok' && (
           <View style={[styles.notice, { backgroundColor: t.ink.warnWash }]} accessibilityLiveRegion="polite">
@@ -156,6 +159,7 @@ const styles = StyleSheet.create({
   columns: { flexDirection: 'row', gap: 88, alignItems: 'flex-start' },
   colMain: { flex: 1, gap: 22 },
   colSide: { flex: 1, gap: 22, paddingTop: 8 },
+  locate: { alignSelf: 'flex-start', marginTop: -10 },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' },
   wordmark: { fontFamily: FONTS.serif, fontSize: 44, lineHeight: 48, letterSpacing: -1.2 },
   lead: { fontFamily: FONTS.sans, fontSize: 17, lineHeight: 24, marginTop: -8 },

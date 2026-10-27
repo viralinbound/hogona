@@ -46,7 +46,9 @@ export default function TabsLayout() {
             tabBarLabel: ({ focused }) => (
               <View style={styles.tab}>
                 <View style={[styles.mark, { backgroundColor: focused ? t.ink.ink : 'transparent' }]} />
-                <Text style={[styles.label, { color: focused ? t.ink.ink : t.ink.faint, fontFamily: focused ? FONTS.sansSemi : FONTS.sansMedium }]}>{tr(tab.title)}</Text>
+                <Text style={[styles.label, { color: focused ? t.ink.ink : t.ink.faint, fontFamily: focused ? FONTS.sansSemi : FONTS.sansMedium }]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
+                  {tr(tab.title)}
+                </Text>
               </View>
             ),
           }}
@@ -59,5 +61,5 @@ export default function TabsLayout() {
 const styles = StyleSheet.create({
   tab: { alignItems: 'center', gap: 7, paddingTop: 2 },
   mark: { width: 18, height: 2, borderRadius: 1 },
-  label: { fontSize: 13, letterSpacing: 0.2 },
+  label: { fontSize: 13, letterSpacing: 0.2, maxWidth: '100%' },
 });

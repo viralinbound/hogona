@@ -7,7 +7,7 @@ import { Stack } from 'expo-router/stack';
 import { StatusBar } from 'expo-status-bar';
 import { Image, Platform, View } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Logo } from '../components/Logo';
 import { TextAction } from '../components/ui';
 import { FONTS, lightTheme } from '../constants/theme';
@@ -18,6 +18,7 @@ function ThemedApp() {
   // The app is light-only by design: one calm, readable look everywhere.
   const theme = lightTheme;
   const tr = useT();
+  const insets = useSafeAreaInsets();
 
   return (
     <PaperProvider theme={theme}>
@@ -40,7 +41,8 @@ function ThemedApp() {
               <Logo variant="mark" size={28} />
             </View>
           ),
-          contentStyle: { backgroundColor: theme.ink.paper },
+          // Side insets cover landscape notches and the status area some foldables reserve on one edge.
+          contentStyle: { backgroundColor: theme.ink.paper, paddingLeft: insets.left, paddingRight: insets.right },
         }}
       >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
