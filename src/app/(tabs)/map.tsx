@@ -1,15 +1,17 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Snackbar } from 'react-native-paper';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Keyboard, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { sortJourneys } from '../../algorithms/journey-ranking';
 import { fareText } from '../../components/fare-text';
 import { IntercityCard } from '../../components/IntercityCard';
 import type { MapLine, MapMarker } from '../../components/map-types';
 import TransitMap from '../../components/MapView';
 import { LineSwatch, ModeTag } from '../../components/ModeTag';
+import { KindMark, PlaceRow } from '../../components/PlaceRow';
 import { Eyebrow, Figure, PillButton, TextAction, Toggle, useAppTheme } from '../../components/ui';
 import { FONTS, MODE_COLOURS } from '../../constants/theme';
+import { searchLocal, searchPlaces } from '../../services/geocoding';
 import { lineById, routesAtStop, stationById, stopById, transportData } from '../../services/transport-data';
 import { useAppState } from '../../state/AppState';
 import type { Journey, Place } from '../../types/journey';
@@ -34,6 +36,54 @@ export default function ExploreMapScreen() {
   const [planned, setPlanned] = useState(false);
   const [pick, setPick] = useState(0);
   const [snack, setSnack] = useState('');
+  // Google-Maps-style search: type any place, see suggestions, tap one to fly there.
+  const [query, setQuery] = useState('');
+  const [found, setFound] = useState<Place[]>([]);
+  const [searching, setSearching] = useState(false);
+  const [searchNote, setSearchNote] = useState<string | undefined>();
+  const [focus, setFocus] = useState<[number, number][] | null>(null);
+  const abort = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) {
+      abort.current?.abort();
+      setFound([]);
+      setSearching(false);
+      setSearchNote(undefined);
+      return;
+    }
+    setFound(searchLocal(q, 6));
+    const timer = setTimeout(async () => {
+      abort.current?.abort();
+      const ctrl = new AbortController();
+      abort.current = ctrl;
+      setSearching(true);
+      try {
+        const r = await searchPlaces(q, ctrl.signal);
+        setFound(r.places);
+        setSearchNote(r.places.length === 0 ? 'No place found. Try a landmark, area or station name.' : r.onlineError);
+      } catch {
+        // superseded by a newer query
+      } finally {
+        if (abort.current === ctrl) setSearching(false);
+      }
+    }, 350);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  const chooseFound = (p: Place) => {
+    Keyboard.dismiss();
+    setQuery('');
+    setFound([]);
+    setSelected(p);
+    // A small box around the place frames it at street level on every map implementation.
+    const d = 0.004;
+    setFocus([
+      [p.lat - d, p.lon - d],
+      [p.lat + d, p.lon + d],
+    ]);
+  };
 
   const journeys: Journey[] = useMemo(() => (planned && plan.status === 'done' ? sortJourneys(plan.result?.journeys ?? [], 'recommended') : []), [planned, plan]);
   const chosen = journeys[pick];
@@ -76,11 +126,11 @@ export default function ExploreMapScreen() {
       );
     if (origin) out.push({ id: 'origin', lat: origin.lat, lon: origin.lon, colour: t.ink.ink, title: origin.name, description: 'Start', size: 'pin' });
     if (destination) out.push({ id: 'destination', lat: destination.lat, lon: destination.lon, colour: t.ink.accent, title: destination.name, description: 'Destination', size: 'pin' });
-    if (selected && selected.kind === 'map') out.push({ id: 'picked', lat: selected.lat, lon: selected.lon, colour: t.ink.warn, title: selected.name, size: 'pin' });
+    if (selected && (selected.kind === 'map' || selected.kind === 'address')) out.push({ id: 'picked', lat: selected.lat, lon: selected.lon, colour: t.ink.warn, title: selected.name, size: 'pin' });
     return out;
   }, [showMetro, showBus, bounds, selected, chosen, origin, destination, t]);
 
-  const fit = useMemo(() => (chosen ? chosen.legs.flatMap((l) => l.geometry) : undefined), [chosen]);
+  const fit = useMemo(() => (chosen ? chosen.legs.flatMap((l) => l.geometry) : (focus ?? undefined)), [chosen, focus]);
 
   const onMarker = (id: string) => {
     const [kind, ref] = [id.slice(0, 1), id.slice(2)];
@@ -97,6 +147,7 @@ export default function ExploreMapScreen() {
     if (!selected) return;
     (as === 'origin' ? setOrigin : setDestination)(selected);
     setSelected(null);
+    setFocus(null);
   };
 
   const find = async () => {
@@ -121,6 +172,35 @@ export default function ExploreMapScreen() {
 
       {/* Trip bar: start and destination, editable from the map or by search. */}
       <View style={[styles.trip, { backgroundColor: t.ink.paper, borderColor: t.ink.rule }]}>
+        <View style={[styles.searchRow, { borderColor: t.ink.rule }]}>
+          <TextInput
+            value={query}
+            onChangeText={setQuery}
+            placeholder="Search any place"
+            placeholderTextColor={t.ink.faint}
+            style={[styles.searchInput, { color: t.ink.ink }]}
+            accessibilityLabel="Search any place in Karnataka"
+            returnKeyType="search"
+            autoCorrect={false}
+          />
+          {searching ? <Text style={[styles.searchState, { color: t.ink.faint }]}>Searching…</Text> : query ? <TextAction label="Clear" tone="muted" onPress={() => setQuery('')} /> : null}
+        </View>
+        {query.trim().length >= 2 ? (
+          <ScrollView style={styles.suggestions} keyboardShouldPersistTaps="handled">
+            {found.map((p, i) => (
+              <PlaceRow
+                key={`${p.refId ?? p.name}-${i}`}
+                lead={<KindMark text={p.kind === 'metro' ? 'MET' : p.kind === 'bus' ? 'BUS' : 'PIN'} />}
+                title={p.name}
+                subtitle={p.subtitle}
+                onPress={() => chooseFound(p)}
+                hint="Shows this place on the map"
+              />
+            ))}
+            {searchNote && <Text style={[styles.hint, { color: t.ink.muted }]}>{searchNote}</Text>}
+          </ScrollView>
+        ) : (
+          <>
         <TripField label="From" place={origin} onPress={() => router.push({ pathname: '/place-search', params: { field: 'origin' } })} />
         <View style={[styles.tripRule, { backgroundColor: t.ink.rule }]} />
         <TripField label="To" place={destination} onPress={() => router.push({ pathname: '/place-search', params: { field: 'destination' } })} />
@@ -133,16 +213,18 @@ export default function ExploreMapScreen() {
           {planned && <TextAction label="Clear route" tone="muted" onPress={() => setPlanned(false)} />}
         </View>
         {!origin || !destination ? (
-          <Text style={[styles.hint, { color: t.ink.faint }]}>Tap a station or stop, or long-press anywhere on the map, then choose Start or Destination.</Text>
+          <Text style={[styles.hint, { color: t.ink.faint }]}>Search a place above, tap a station or stop, or tap the map, then choose Start or Destination.</Text>
         ) : null}
         {showBus && !bounds?.zoomedIn && !chosen && <Text style={[styles.hint, { color: t.ink.faint }]}>Zoom in to see bus stops.</Text>}
+          </>
+        )}
       </View>
 
       {selected && (
         <View style={[styles.sheet, { backgroundColor: t.ink.paper, borderColor: t.ink.rule }]}>
           <View style={styles.sheetHead}>
             <View style={{ flex: 1 }}>
-              <Eyebrow>{selected.kind === 'metro' ? 'Metro station' : selected.kind === 'bus' ? 'Bus stop' : 'Pinned'}</Eyebrow>
+              <Eyebrow>{selected.kind === 'metro' ? 'Metro station' : selected.kind === 'bus' ? 'Bus stop' : selected.kind === 'address' ? 'Place' : 'Pinned'}</Eyebrow>
               <Text style={[styles.sheetTitle, { color: t.ink.ink }]} numberOfLines={2}>
                 {selected.name}
               </Text>
@@ -153,7 +235,7 @@ export default function ExploreMapScreen() {
               )}
             </View>
             <View style={{ alignItems: 'flex-end', gap: 10 }}>
-              <TextAction label="Close" tone="muted" onPress={() => setSelected(null)} />
+              <TextAction label="Close" tone="muted" onPress={() => { setSelected(null); setFocus(null); }} />
               <TextAction label={isFavourite(selected) ? 'Saved' : 'Save'} tone={isFavourite(selected) ? 'accent' : 'ink'} onPress={() => toggleFavourite(selected)} />
             </View>
           </View>
@@ -263,6 +345,10 @@ function OptionCard({ journey, active, onPress }: { journey: Journey; active: bo
 const styles = StyleSheet.create({
   screen: { flex: 1 },
   trip: { position: 'absolute', top: 10, left: 56, right: 10, borderRadius: 18, borderWidth: 1, paddingHorizontal: 14, paddingVertical: 8, gap: 2, maxWidth: 560 },
+  searchRow: { flexDirection: 'row', alignItems: 'center', gap: 8, borderBottomWidth: StyleSheet.hairlineWidth * 2, paddingBottom: 4, marginBottom: 4 },
+  searchInput: { flex: 1, fontFamily: FONTS.serif, fontSize: 20, lineHeight: 24, minHeight: 40, paddingVertical: 6 },
+  searchState: { fontFamily: FONTS.sans, fontSize: 12 },
+  suggestions: { maxHeight: 320 },
   field: { paddingVertical: 4, minHeight: 40, justifyContent: 'center' },
   fieldLabel: { fontFamily: FONTS.sansSemi, fontSize: 11, letterSpacing: 1.4 },
   fieldValue: { fontFamily: FONTS.serif, fontSize: 20, lineHeight: 24 },
